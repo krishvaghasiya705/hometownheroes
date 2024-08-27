@@ -1,0 +1,15 @@
+header {
+  width: 100%;
+  height: auto;
+  position: sticky;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  background: rgba(246, 241, 229, 1);
+
+  .header-container-main {
+    max-width: 1236px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
