@@ -1,39 +1,52 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Big Shoulders Display", sans-serif;
+  /* font-family: "Big Shoulders Inline Text", sans-serif; */
 }
 
+body {
+  background: rgba(246, 241, 229, 1);
+}
 
 /* width */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 7px;
   height: 5px;
-}
+} */
 
 /* Track */
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background: #FFF;
-}
+} */
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   cursor: pointer;
   background: #EF404A;
   border-radius: 10px 0 0 10px;
-}
+} */
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background: #ff000d;
-}
+} */
 
-::-moz-selection {
+/* ::-moz-selection {
   color: #EF404A;
   background: #FFF;
-}
+} */
 
-::selection {
+/* ::selection {
   color: #EF404A;
   background: #FFF;
+} */
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
 }

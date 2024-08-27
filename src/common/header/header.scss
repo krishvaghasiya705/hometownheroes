@@ -6,10 +6,45 @@ header {
   top: 0;
   left: 0;
   background: rgba(246, 241, 229, 1);
+  padding: 40px 0;
 
   .header-container-main {
-    max-width: 1236px;
+    max-width: 1270px;
     margin: 0 auto;
     padding: 0 20px;
+  }
+
+  .header-content-alignment {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-logo-main {
+      width: auto;
+
+      a {
+        svg {
+          display: block;
+        }
+      }
+    }
+
+    .header-content-main {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 38px;
+
+      a {
+        text-decoration-line: none;
+        color: #000000;
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+      }
+    }
   }
 }

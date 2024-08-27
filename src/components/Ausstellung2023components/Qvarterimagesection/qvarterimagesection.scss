@@ -1,0 +1,43 @@
+.qvarter-image-section-main {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+
+  .qvarter-image-section-container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .qvarter-image-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+
+    .qvarter-image-side1 {
+      flex: 1 1;
+      width: 100%;
+      height: 100%;
+    }
+    .qvarter-image-side2 {
+      flex: 2 2;
+      width: 100%;
+      height: 100%;
+
+      .qvarter-image-side2-alignment {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .qvarter-image-side2-alignment1 {
+          flex: 1 1;
+        }
+        .qvarter-image-side2-alignment2 {
+          flex: 2 2;
+        }
+      }
+    }
+  }
+}
