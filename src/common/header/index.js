@@ -18,10 +18,15 @@ function Header() {
       svgPathColor = "#FFFFFF";
       navLinkColor = "#F6F1E5";
       break;
-    default:
+    case "/":
       headerColor = "#F6F1E5";
       svgPathColor = "#000000";
       navLinkColor = "#000000";
+      break;
+    default:
+      headerColor = "#1a1a1a";
+      svgPathColor = "#fff";
+      navLinkColor = "#F6F1E5";
       break;
   }
 

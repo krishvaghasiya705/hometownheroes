@@ -94,6 +94,119 @@
           }
         }
       }
+
+      .gebot-div-main {
+        h3 {
+          font-family: "Big Shoulders Inline Text", sans-serif;
+          font-size: 25px;
+          font-weight: 900;
+          line-height: 22px;
+          text-align: left;
+          color: #f6f1e5;
+          margin: 0 0 20px 0;
+        }
+
+        label {
+          font-family: "Big Shoulders Display", sans-serif;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 22px;
+          text-align: left;
+          color: #f6f1e5;
+        }
+        input {
+          width: 100%;
+          background-color: transparent;
+          outline: none;
+          border: none;
+          border-bottom: 1px solid #3d3d3d;
+          font-family: "Big Shoulders Display", sans-serif;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 22px;
+          text-align: left;
+          color: #f6f1e5;
+          margin: 0 0 10px 0;
+        }
+
+        .input-div-main-alignment {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 5px;
+          .input-div-main {
+            width: 100%;
+          }
+        }
+
+        .redio-input-main {
+          display: flex;
+          justify-content: start;
+          align-items: center;
+          gap: 10px;
+          margin: 0 0 30px 0;
+
+          input[type="radio"] {
+            appearance: none;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            outline: none;
+            cursor: pointer;
+            margin: 0;
+            background-color: #000;
+          }
+
+          input[type="radio"]:checked {
+            background-color: #fff;
+            border-color: #fff;
+          }
+
+          p {
+            font-family: "Big Shoulders Display", sans-serif;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 22px;
+            text-align: left;
+            color: #f6f1e5;
+            min-width: max-content;
+          }
+        }
+
+        .gebot-button-main {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          button {
+            padding: 12px 26px;
+            width: auto;
+            height: auto;
+            border: 1px solid #f6f1e5;
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Big Shoulders Display", sans-serif;
+            font-size: 16px;
+            font-weight: 900;
+            line-height: 21px;
+            letter-spacing: 0.14em;
+            text-align: center;
+            color: #fff;
+            background-color: transparent;
+            transition: 0.5s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+              transition: 0.5s ease-in-out;
+              background-color: #fff;
+              color: #000;
+            }
+          }
+        }
+      }
     }
   }
 }

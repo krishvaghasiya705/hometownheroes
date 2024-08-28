@@ -41,6 +41,31 @@ function Lwandleherobanner() {
                   <input type="text" placeholder="E-Mail-Adresse *" />
                 </div>
               </form>
+              <div className="gebot-div-main">
+                <h3>Gebot</h3>
+                <div className="input-div-main-alignment">
+                  <div className="input-div-main">
+                    <label>Gebot in € *</label>
+                    <input type="text" placeholder="300€" />
+                  </div>
+                  <div className="input-div-main"></div>
+                </div>
+                <div className="redio-input-main">
+                  <input
+                    type="radio"
+                    id="css"
+                    name="fav_language"
+                    value="CSS"
+                  />
+                  <p>
+                    Es gelten die AGB. Ich habe die Datenschutzerklärung zur
+                    Kenntnis genommen.
+                  </p>
+                </div>
+                <div className="gebot-button-main">
+                  <button>Gebot abgeben</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
