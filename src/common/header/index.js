@@ -46,7 +46,7 @@ function Header() {
             <NavLink to={"/ausstellung2024"}>
               <p style={{ color: navLinkColor }}>AUSSTELLUNG 2024</p>
             </NavLink>
-            <NavLink to={"/"}>
+            <NavLink to={"/donate"}>
               <p style={{ color: navLinkColor }}>DONATE</p>
             </NavLink>
             <NavLink to={"/"}>

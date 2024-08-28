@@ -38,7 +38,7 @@ function Thanksection() {
           </div>
         </div>
         <div className="thanks-section-hometownheroes-div-two">
-          <div className="thanks-sectionimage-div-main">
+          <div className="thanks-sectionimage-div-main thanks-sectionimage-div-main-sc">
             <h1>THANK YOU</h1>
             <img src={Footerimage2} alt="Footerimage2" />
           </div>

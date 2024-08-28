@@ -17,10 +17,10 @@
     gap: 40px;
 
     .hometownheroeskid1-div {
-      width: fit-content;
-      height: 100%;
       img {
         display: block;
+        max-width: 500px;
+        min-height: 494px;
       }
     }
 
@@ -79,12 +79,11 @@
       }
 
       .hometownheroeskid2-image {
-        width: fit-content;
-        height: 100%;
-
         img {
           width: 100%;
           height: 100%;
+          max-width: 357px;
+          min-height: 511px;
           display: block;
         }
       }
@@ -97,6 +96,13 @@
       line-height: 30px;
       text-align: left;
       max-width: 618px;
+    }
+
+    .Hometownheroeskid3-image {
+      img {
+        max-width: 509px;
+        max-height: 284px;
+      }
     }
   }
 }

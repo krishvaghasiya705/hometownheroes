@@ -23,7 +23,7 @@ function Ausstellung2023Herobanner() {
           <div>
             <h1>2023</h1>
           </div>
-          <div>
+          <div className="hometownheroesbannerimage2">
             <img
               src={Hometownheroesbannerimage2}
               alt="Hometownheroesbannerimage2"

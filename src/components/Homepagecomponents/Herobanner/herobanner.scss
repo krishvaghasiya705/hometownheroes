@@ -11,12 +11,16 @@
   }
 
   .herobanner-hometown-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: end;
     width: 100%;
     height: 100%;
     margin: 0 0 69px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    gap: 110px;
 
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
@@ -42,85 +46,14 @@
     img {
       display: block;
       width: 100%;
-      height: auto;
+      min-width: 320px;
+      max-width: 320px;
+      min-height: 428px;
     }
   }
 
   .auktion-date-div-main {
     width: 100%;
-
-    h3 {
-      font-family: "Big Shoulders Inline Text", sans-serif;
-      font-size: 38.77px;
-      font-weight: 900;
-      line-height: 85.29px;
-      letter-spacing: -0.04em;
-      text-align: center;
-      margin: 0 0 2px 0;
-    }
-
-    .auktion-date-alignment-main {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 0 69px 0;
-      .auktion-date-alignment {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        max-width: 609px;
-        width: 100%;
-        height: 100%;
-        gap: 16px;
-
-        .auktion-date-border {
-          position: absolute;
-          top: 37%;
-          left: 0;
-          transform: translateY(-50%);
-          width: 100%;
-          height: 1.55px;
-          background-color: #1b1b1b;
-        }
-
-        .auktion-date-show-box-alignment {
-          text-align: center;
-          .auktion-date-show-box {
-            padding: 53px 29px 53px 29px;
-            border-radius: 11px;
-            background-color: #1b1b1b;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-
-            span {
-              font-family: "Big Shoulders Display", sans-serif;
-              font-size: 47.09px;
-              font-weight: 900;
-              line-height: 44.95px;
-              letter-spacing: -0.04em;
-              text-align: center;
-              color: rgba(246, 241, 229, 1);
-              min-width: 43px;
-            }
-          }
-
-          p {
-            margin: 17px 0 0 0;
-            font-family: "Big Shoulders Display", sans-serif;
-            font-size: 15.51px;
-            font-weight: 900;
-            line-height: 32.57px;
-            letter-spacing: -0.04em;
-            text-align: center;
-            color: #1b1b1b;
-            text-transform: uppercase;
-          }
-        }
-      }
-    }
 
     .fundamental-peragraph-main {
       text-align: center;

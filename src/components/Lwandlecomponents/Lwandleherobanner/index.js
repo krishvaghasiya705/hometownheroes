@@ -2,14 +2,16 @@ import React from "react";
 import "./Lwandleherobanner.scss";
 
 import lwandeimage from "../../../assets/homtownheroesminipageimages/lwandle.png";
-function Lwandleherobanner() {
+
+function Lwandleherobanner({ hideImage = false, showText = false }) {
   return (
     <>
       <div className="lwandle-herobanner-main">
         <div className="lwandle-herobanner-container">
           <div className="lwandle-herobanner">
             <div className="homtownheroes-mini-page-image-alignment">
-              <img src={lwandeimage} alt="lwandeimage" />
+              {!hideImage && <img src={lwandeimage} alt="lwandeimage" />}
+              {showText && <h1>DONATE</h1>}
             </div>
             <div className="lwandle-herobanner-content">
               <div className="lwandle-title">

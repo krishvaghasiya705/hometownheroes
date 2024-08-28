@@ -55,7 +55,7 @@ function Theappearlsection() {
           </div>
           <div className="collaborations-flx-items1">
             <h2>COLLABORATIONS</h2>
-            <div className="collaborations-image-div">
+            <div className="collaborations-image-div collaborations-image-div-sc">
               <img src={Collaborationsimage2} alt="Collaborationsimage2" />
               <p>HOMETOWN HEROES X CANON</p>
             </div>

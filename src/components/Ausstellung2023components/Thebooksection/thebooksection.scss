@@ -30,12 +30,12 @@
     }
 
     .hometownheroescoffeewithpaperimage {
-      width: auto;
-      height: 100%;
-
       img {
-        width: auto;
+        width: 100%;
         height: 100%;
+        min-width: 354px;
+        max-width: 354px;
+        min-height: 587px;
         max-height: 587px;
         display: block;
       }

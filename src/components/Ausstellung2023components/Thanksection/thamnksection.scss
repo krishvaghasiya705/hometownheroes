@@ -43,8 +43,10 @@
       }
 
       img {
-        width: 100%;
-        height: auto;
+        min-width: 438px;
+        max-width: 438px;
+        max-height: 209px;
+        min-height: 209px;
         display: block;
       }
 
@@ -92,9 +94,10 @@
       }
 
       img {
-        width: auto;
-        height: auto;
-        display: block;
+        max-width: 393px;
+        min-width: 393px;
+        min-height: 145px;
+        max-height: 145px;
       }
     }
   }

@@ -62,12 +62,11 @@
       }
 
       .collaborations-image-div {
-        width: 100%;
-
         img {
-          display: block;
-          width: auto;
-          height: auto;
+          min-width: 432px;
+          max-width: 432px;
+          min-height: 104px;
+          max-height: 104px;
         }
 
         p {
@@ -80,6 +79,16 @@
           max-width: none;
         }
       }
+
+      .collaborations-image-div {
+        img {
+          min-width: 432px;
+          max-width: 432px;
+          min-height: 126px;
+          max-height: 126px;
+        }
+      }
+
       p {
         margin: 30px 0 0 0;
         text-align: center;

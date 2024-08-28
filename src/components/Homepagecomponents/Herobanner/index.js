@@ -2,6 +2,7 @@ import React from "react";
 import "./herobanner.scss";
 
 import Hometownheroesbannerimage from "../../../assets/image/hometownheroesbannerimage.png";
+import Clocksection from "./clocksection";
 
 function Herobanner() {
   return (
@@ -24,40 +25,15 @@ function Herobanner() {
           </div>
         </div>
 
+        <Clocksection
+          borderColor="#1b1b1b"
+          boxBackgroundColor="#1b1b1b"
+          boxFontColor="#f6f1e5"
+          labelFontColor="#1B1B1B"
+          headerFontColor="#1b1b1b"
+        />
         <div className="auktion-date-div-main">
           <div>
-            <h3>AUKTION 2024 NOCH</h3>
-
-            <div className="auktion-date-alignment-main">
-              <div className="auktion-date-alignment">
-                <div className="auktion-date-border"></div>
-                <div className="auktion-date-show-box-alignment">
-                  <div className="auktion-date-show-box">
-                    <span>13</span>
-                  </div>
-                  <p>DAYS</p>
-                </div>
-                <div className="auktion-date-show-box-alignment">
-                  <div className="auktion-date-show-box">
-                    <span>23</span>
-                  </div>
-                  <p>HOURS</p>
-                </div>
-                <div className="auktion-date-show-box-alignment">
-                  <div className="auktion-date-show-box">
-                    <span>59</span>
-                  </div>
-                  <p>MINUTES</p>
-                </div>
-                <div className="auktion-date-show-box-alignment">
-                  <div className="auktion-date-show-box">
-                    <span>59</span>
-                  </div>
-                  <p>seconds</p>
-                </div>
-              </div>
-            </div>
-
             <div className="fundamental-peragraph-main">
               <p>
                 The fundamental idea behind Hometown Heroes is to create a

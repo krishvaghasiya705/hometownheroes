@@ -55,7 +55,7 @@ function Theideasection() {
               we accompany and document.
             </p>
           </div>
-          <div>
+          <div className="Hometownheroeskid3-image">
             <img src={Hometownheroeskid3} alt="Hometownheroeskid3" />
           </div>
         </div>

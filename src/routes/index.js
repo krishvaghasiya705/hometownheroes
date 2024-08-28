@@ -4,6 +4,7 @@ import Home from "../module/home";
 import Ausstellung2023 from "../module/Ausstellung2023";
 import Ausstellung2024 from "./../module/Ausstellung2024/index";
 import Lwandle from "../module/Lwandle";
+import Donate from "../module/Donate";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/lwandle",
         element: <Lwandle />,
+      },
+      {
+        path: "/donate",
+        element: <Donate />,
       },
     ],
   },
