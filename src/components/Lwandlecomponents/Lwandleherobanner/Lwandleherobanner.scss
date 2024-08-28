@@ -51,6 +51,7 @@
         }
       }
       form {
+        margin: 0 0 30px 0;
         h2 {
           font-family: "Big Shoulders Display", sans-serif;
           font-size: 14px;
@@ -69,13 +70,28 @@
           text-align: left;
           color: #f6f1e5;
         }
+        input {
+          width: 100%;
+          background-color: transparent;
+          outline: none;
+          border: none;
+          border-bottom: 1px solid #3d3d3d;
+          font-family: "Big Shoulders Display", sans-serif;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 22px;
+          text-align: left;
+          color: #f6f1e5;
+          margin: 0 0 10px 0;
+        }
 
-        .input-div-main {
+        .input-div-main-alignment {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 5px;
+          .input-div-main {
             width: 100%;
-
-            input {
-                width: 100%;
-            }
+          }
         }
       }
     }

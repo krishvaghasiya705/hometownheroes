@@ -22,9 +22,23 @@ function Lwandleherobanner() {
               </div>
               <form>
                 <h2>Startgebot pro Bild: 300€</h2>
+                <div className="input-div-main-alignment">
+                  <div className="input-div-main">
+                    <label>Vorname *</label>
+                    <input type="text" placeholder="Vorname *" />
+                  </div>
+                  <div className="input-div-main">
+                    <label>Nachname *</label>
+                    <input type="text" placeholder="Nachname *" />
+                  </div>
+                </div>
                 <div className="input-div-main">
-                  <label>Vorname *</label>
-                  <input type="text" name="" id="" />
+                  <label>Firma</label>
+                  <input type="text" placeholder="Firma" />
+                </div>
+                <div className="input-div-main">
+                  <label>E-Mail-Adresse *</label>
+                  <input type="text" placeholder="E-Mail-Adresse *" />
                 </div>
               </form>
             </div>
