@@ -1,7 +1,7 @@
 .herobanner-main {
   width: 100%;
   height: 100%;
-  padding: 67px 0 30px 0;
+  padding: 67px 0 0 0;
   box-sizing: border-box;
 
   .herobanner-container {
@@ -124,7 +124,7 @@
 
     .fundamental-peragraph-main {
       text-align: center;
-      margin: 0 0 69px 0;
+      margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -139,6 +139,5 @@
         max-width: 961px;
       }
     }
-
   }
 }

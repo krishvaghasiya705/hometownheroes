@@ -5,7 +5,7 @@ header {
   z-index: 9;
   top: 0;
   left: 0;
-  background: rgba(246, 241, 229, 1);
+  background: #f6f1e5;
   padding: 40px 0;
 
   .header-container-main {
@@ -39,11 +39,13 @@ header {
       a {
         text-decoration-line: none;
         color: #000000;
-        font-family: "Big Shoulders Display", sans-serif;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 18px;
-        text-align: left;
+        p {
+          font-family: "Big Shoulders Inline Text", sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 18px;
+          text-align: left;
+        }
       }
     }
   }

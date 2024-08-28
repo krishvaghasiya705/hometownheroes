@@ -5,8 +5,12 @@
   /* font-family: "Big Shoulders Inline Text", sans-serif; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: rgba(246, 241, 229, 1);
+  /* background-color: #f6f1e5; */
 }
 
 /* width */
