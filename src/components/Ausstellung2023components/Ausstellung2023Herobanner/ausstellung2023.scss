@@ -39,12 +39,13 @@
     }
 
     .hometownheroesbannerimage2 {
-      width: auto;
+      width: fit-content;
 
       img {
-        min-width: 320px;
-        max-width: 320px;
-        min-height: 428px;
+        max-width: 387px;
+        min-width: 387px;
+        max-height: 526px;
+        min-height: 526px;
       }
     }
   }

@@ -5,6 +5,9 @@ import Ausstellung2023 from "../module/Ausstellung2023";
 import Ausstellung2024 from "./../module/Ausstellung2024/index";
 import Lwandle from "../module/Lwandle";
 import Donate from "../module/Donate";
+import Followthejourney from "../module/Followthejourney";
+import Impressum from "../module/Impressum";
+import Datenschutz from "../module/Datenschutz";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +33,18 @@ const router = createBrowserRouter([
       {
         path: "/donate",
         element: <Donate />,
+      },
+      {
+        path: "/followthejourney",
+        element: <Followthejourney />,
+      },
+      {
+        path: "/impressum",
+        element: <Impressum />,
+      },
+      {
+        path: "/datenschutz",
+        element: <Datenschutz />,
       },
     ],
   },

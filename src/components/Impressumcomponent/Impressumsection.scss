@@ -1,0 +1,89 @@
+.impressum-section-main {
+  margin: 67px 0 230px 0;
+
+  .impressum-section-container {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .impressum-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-family: "Big Shoulders Display", sans-serif;
+      font-size: 76px;
+      font-weight: 900;
+      line-height: 71px;
+      letter-spacing: -0.06em;
+      text-align: left;
+      color: #1b1b1b;
+      margin: 0 0 30px 0;
+    }
+
+    p {
+      font-family: "Big Shoulders Display", sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 30px;
+      letter-spacing: -0.06em;
+      text-align: left;
+      color: #1b1b1b;
+      max-width: 929px;
+      margin: 0 0 30px 0;
+    }
+
+    .contact-details-impressum {
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      align-items: start;
+      gap: 60px;
+
+      p {
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 34.71px;
+        letter-spacing: -0.06em;
+        text-align: left;
+        color: #1b1b1b;
+      }
+
+      h2 {
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 34.71px;
+        letter-spacing: -0.06em;
+        text-align: left;
+        color: #1b1b1b;
+
+        a {
+          font-family: "Big Shoulders Display", sans-serif;
+          font-size: 20px;
+          font-weight: 900;
+          line-height: 34.71px;
+          letter-spacing: -0.06em;
+          text-align: left;
+          color: #1b1b1b;
+        }
+      }
+
+      a {
+        display: block;
+        width: fit-content;
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 34.71px;
+        letter-spacing: -0.06em;
+        text-align: left;
+        color: #1b1b1b;
+        text-decoration-line: none;
+      }
+    }
+  }
+}

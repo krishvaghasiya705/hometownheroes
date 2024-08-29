@@ -7,25 +7,21 @@ import Jesamicon from "../../assets/svg/Jesamicon";
 export default function Footer({
   navLinkColor: propNavLinkColor,
   svgPathColor: propSvgPathColor1,
-  svgPathColor: propSvgPathColor2,
+  svgPathColor2: propSvgPathColor2,
 }) {
   const location = useLocation();
-
-  if (location.pathname === "/ausstellung2024") {
-    return null;
-  }
+  const { pathname } = location;
 
   let navLinkColor = propNavLinkColor;
   let svgPathColor1 = propSvgPathColor1;
   let svgPathColor2 = propSvgPathColor2;
 
-  switch (location.pathname) {
+  switch (pathname) {
     case "/":
-      navLinkColor = "#000000";
-      svgPathColor1 = "#1B1B1B";
-      svgPathColor2 = "#000000";
-      break;
     case "/ausstellung2023":
+    case "/followthejourney":
+    case "/impressum":
+    case "/datenschutz":
       navLinkColor = "#000000";
       svgPathColor1 = "#1B1B1B";
       svgPathColor2 = "#000000";
@@ -37,11 +33,18 @@ export default function Footer({
       break;
   }
 
+  const isSupportVisionPage =
+    pathname === "/ausstellung2023" || pathname === "/followthejourney";
+
+  if (pathname === "/ausstellung2024") {
+    return null;
+  }
+
   return (
     <footer>
       <div className="footer-container">
         <div className="footer-last-content-main">
-          {location.pathname === "/ausstellung2023" ? (
+          {isSupportVisionPage && (
             <>
               <h1>IN CASE YOU WANT TO SUPPORT OUR VISION</h1>
               <div className="contact-div">
@@ -54,37 +57,22 @@ export default function Footer({
                   info@tvbfilm.com
                 </NavLink>
               </div>
-              <div className="impressum-and-datenschutz-links-main">
-                <NavLink to={"/"} style={{ color: navLinkColor }}>
-                  IMPRESSUM
-                </NavLink>
-                <NavLink to={"/"} style={{ color: navLinkColor }}>
-                  DATENSCHUTZ
-                </NavLink>
-              </div>
-              <div className="jesam-icon-div-main">
-                <NavLink to={"/"}>
-                  <Jesamicon color1={svgPathColor1} color2={svgPathColor2} />
-                </NavLink>
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="impressum-and-datenschutz-links-main">
-                <NavLink to={"/"} style={{ color: navLinkColor }}>
-                  IMPRESSUM
-                </NavLink>
-                <NavLink to={"/"} style={{ color: navLinkColor }}>
-                  DATENSCHUTZ
-                </NavLink>
-              </div>
-              <div className="jesam-icon-div-main">
-                <NavLink to={"/"}>
-                  <Jesamicon color1={svgPathColor1} color2={svgPathColor2} />
-                </NavLink>
-              </div>
             </>
           )}
+
+          <div className="impressum-and-datenschutz-links-main">
+            <NavLink to={"/impressum"} style={{ color: navLinkColor }}>
+              IMPRESSUM
+            </NavLink>
+            <NavLink to={"/datenschutz"} style={{ color: navLinkColor }}>
+              DATENSCHUTZ
+            </NavLink>
+          </div>
+          <div className="jesam-icon-div-main">
+            <NavLink to={"/"}>
+              <Jesamicon color1={svgPathColor1} color2={svgPathColor2} />
+            </NavLink>
+          </div>
         </div>
       </div>
     </footer>

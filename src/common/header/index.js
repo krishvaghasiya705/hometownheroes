@@ -8,20 +8,19 @@ function Header() {
   let headerColor, svgPathColor, navLinkColor;
 
   switch (location.pathname) {
+    case "/followthejourney":
+    case "/":
     case "/ausstellung2023":
+    case "/impressum":
+    case "/datenschutz":
       headerColor = "#f6f1e5";
-      svgPathColor = "#000";
+      svgPathColor = "#000000";
       navLinkColor = "#000000";
       break;
     case "/ausstellung2024":
       headerColor = "#1A1A1A";
       svgPathColor = "#FFFFFF";
       navLinkColor = "#F6F1E5";
-      break;
-    case "/":
-      headerColor = "#F6F1E5";
-      svgPathColor = "#000000";
-      navLinkColor = "#000000";
       break;
     default:
       headerColor = "#1a1a1a";
@@ -49,7 +48,7 @@ function Header() {
             <NavLink to={"/donate"}>
               <p style={{ color: navLinkColor }}>DONATE</p>
             </NavLink>
-            <NavLink to={"/"}>
+            <NavLink to={"/followthejourney"}>
               <p style={{ color: navLinkColor }}>FOLLOW THE JOURNEY</p>
             </NavLink>
           </div>
