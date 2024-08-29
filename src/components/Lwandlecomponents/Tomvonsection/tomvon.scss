@@ -1,44 +1,11 @@
 .tom-von-section-main {
   overflow-y: hidden;
+  margin: 0 0 31px 0;
 
   .tom-von-section {
     position: relative;
     overflow: hidden;
     white-space: nowrap;
-
-    .scroll-right {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 700px;
-      animation: scrollRight 30s linear infinite alternate;
-    }
-
-    .scroll-left {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 700px;
-      animation: scrollLeft 30s linear infinite alternate;
-    }
-
-    @keyframes scrollRight {
-      0% {
-        transform: translateX(100%);
-      }
-      100% {
-        transform: translateX(-100%);
-      }
-    }
-
-    @keyframes scrollLeft {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(100%);
-      }
-    }
 
     h4 {
       font-family: "Big Shoulders Display", sans-serif;
@@ -58,7 +25,6 @@
       font-weight: 900;
       line-height: 165.26px;
       letter-spacing: -0.04em;
-
       color: #f6f1e5;
       margin: 0 0 16px -21px;
     }
