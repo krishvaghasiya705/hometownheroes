@@ -1,7 +1,4 @@
 .qvarter-image-section-main {
-  
-  
-  
   padding: 100px 0;
 
   .qvarter-image-section-container {
@@ -11,15 +8,11 @@
   }
 
   .qvarter-image-section {
-    
-    
     display: flex;
     gap: 20px;
 
     img {
       display: block;
-      
-      
       max-width: 436px;
       min-width: 436px;
       min-height: 625px;
@@ -28,24 +21,15 @@
 
     .qvarter-image-side1 {
       flex: 1 1;
-      
-      
     }
     .qvarter-image-side2 {
       flex: 2 2;
-      
-      
       margin: 0 1px 0 0;
 
       .qvarter-image-side2-alignment {
         display: flex;
         flex-direction: column;
         gap: 20px;
-
-        img {
-          
-          
-        }
 
         .qvarter-image-side2-alignment1 {
           flex: 1 1;

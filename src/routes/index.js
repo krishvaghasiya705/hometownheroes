@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element: <Ausstellung2024 />,
       },
       {
-        path: "/lwandle",
+        path: "/tomvonbelow",
         element: <Lwandle />,
       },
       {

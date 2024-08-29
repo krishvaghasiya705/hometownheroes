@@ -6,7 +6,7 @@ function Ausstellung2024pagelinks() {
   return (
     <div className="ausstellung-2024-page-links-main">
       <div className="ausstellung-2024-page-link">
-        <NavLink to={"/lwandle"}># 1 LWANDLE</NavLink>
+        <NavLink to={"/tomvonbelow"}># 1 LWANDLE</NavLink>
       </div>
       <div className="ausstellung-2024-page-link">
         <NavLink to={"/"}># 2 BETWEEN WALLS OF REALITY</NavLink>

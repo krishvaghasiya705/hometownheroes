@@ -1,7 +1,4 @@
 .hometownheroes-pera-section-main {
-  
-  
-
   .hometownheroes-pera-section-container {
     max-width: 1270px;
     margin: 0 auto;
@@ -9,15 +6,12 @@
   }
 
   .hometownheroes-pera-section {
-    
-    
     display: flex;
     align-items: start;
     gap: 60px;
 
     .hometownheroesbannerimage-div-main {
       flex: 1 1;
-      
 
       img {
         min-width: 476px;
@@ -30,14 +24,12 @@
 
     .hometownheroesbanner-peraghraph-div-main {
       flex: 2 2;
-      
 
       p {
         font-family: "Big Shoulders Display", sans-serif;
         font-size: 20px;
         font-weight: 700;
         line-height: 30px;
-        
         color: #1b1b1b;
         max-width: 744px;
       }
