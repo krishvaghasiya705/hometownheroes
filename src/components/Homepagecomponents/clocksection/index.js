@@ -25,7 +25,6 @@ function Clocksection({
             >
               <span style={{ color: boxFontColor }}>13</span>
             </div>
-            <p style={{ color: labelFontColor }}>DAYS</p>
           </div>
           <div className="auktion-date-show-box-alignment">
             <div
@@ -34,7 +33,6 @@ function Clocksection({
             >
               <span style={{ color: boxFontColor }}>23</span>
             </div>
-            <p style={{ color: labelFontColor }}>HOURS</p>
           </div>
           <div className="auktion-date-show-box-alignment">
             <div
@@ -43,7 +41,6 @@ function Clocksection({
             >
               <span style={{ color: boxFontColor }}>59</span>
             </div>
-            <p style={{ color: labelFontColor }}>MINUTES</p>
           </div>
           <div className="auktion-date-show-box-alignment">
             <div
@@ -52,8 +49,13 @@ function Clocksection({
             >
               <span style={{ color: boxFontColor }}>59</span>
             </div>
-            <p style={{ color: labelFontColor }}>SECONDS</p>
           </div>
+        </div>
+        <div className="auktion-date-alignment-sc">
+          <p style={{ color: labelFontColor }}>DAYS</p>
+          <p style={{ color: labelFontColor }}>HOURS</p>
+          <p style={{ color: labelFontColor }}>MINUTES</p>
+          <p style={{ color: labelFontColor }}>SECONDS</p>
         </div>
       </div>
     </div>

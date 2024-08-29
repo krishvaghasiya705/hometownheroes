@@ -1,12 +1,14 @@
 header {
-  
-  
   position: sticky;
   z-index: 9;
   top: 0;
   left: 0;
   background: #f6f1e5;
   padding: 40px 0;
+
+  @media (max-width: 1024px) {
+    padding: 23px 11px;
+  }
 
   .header-container-main {
     max-width: 1270px;
@@ -15,7 +17,6 @@ header {
   }
 
   .header-content-alignment {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,6 +27,13 @@ header {
       a {
         svg {
           display: block;
+          max-width: 228px;
+          max-height: 20px;
+
+          @media (max-width: 1024px) {
+            max-width: 187px;
+            max-height: 16px;
+          }
         }
       }
     }
@@ -36,6 +44,11 @@ header {
       align-items: center;
       gap: 38px;
 
+      @media (max-width: 1024px) {
+        gap: 22px;
+        justify-content: end;
+      }
+
       a {
         text-decoration-line: none;
         color: #000000;
@@ -44,7 +57,11 @@ header {
           font-size: 20px;
           font-weight: 500;
           line-height: 18px;
-          
+
+          @media (max-width: 1024px) {
+            font-size: 12px;
+            line-height: 10px;
+          }
         }
       }
     }

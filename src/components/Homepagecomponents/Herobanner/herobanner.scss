@@ -1,5 +1,8 @@
 .herobanner-main {
   padding: 67px 0 0 0;
+  @media (max-width: 1024px) {
+    padding: 68px 0 267px 0;
+  }
 
   .herobanner-container {
     max-width: 1270px;
@@ -11,12 +14,16 @@
     display: flex;
     justify-content: center;
     align-items: end;
-
     margin: 0 0 69px 0;
     gap: 110px;
 
     @media (max-width: 1024px) {
       gap: 63px;
+    }
+
+    @media (max-width: 576px) {
+      display: grid;
+      grid-template-columns: repeat(1, 2fr);
     }
 
     h1 {
@@ -32,6 +39,7 @@
       @media (max-width: 1024px) {
         font-size: 100px;
         line-height: 83.15px;
+        max-width: 245px;
       }
     }
 
@@ -53,10 +61,15 @@
 
     img {
       display: block;
-
       min-width: 320px;
       max-width: 320px;
       min-height: 428px;
+
+      @media (max-width: 1024px) {
+        max-width: 183px;
+        min-width: 183px;
+        min-height: 245px;
+      }
     }
   }
 
@@ -76,6 +89,12 @@
         text-align: center;
         color: #000000;
         max-width: 961px;
+
+        @media (max-width: 1024px) {
+          font-size: 16px;
+          line-height: 22px;
+          max-width: 728px;
+        }
       }
     }
   }

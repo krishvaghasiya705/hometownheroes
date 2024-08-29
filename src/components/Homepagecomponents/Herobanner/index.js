@@ -9,20 +9,20 @@ function Herobanner() {
     <div className="herobanner-main">
       <div className="herobanner-container">
         <div className="herobanner-hometown-div">
-          <div>
+          <>
             <h1>HOME TOWN HEROES</h1>
-          </div>
+          </>
 
-          <div>
+          <>
             <p>A PHOTOGRAPHIC JOURNEY THROUGH THE TOWNSHIPS OF CAPE TOWN</p>
-          </div>
+          </>
 
-          <div>
+          <>
             <img
               src={Hometownheroesbannerimage}
               alt="Hometownheroesbannerimage"
             />
-          </div>
+          </>
         </div>
 
         <Clocksection

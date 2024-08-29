@@ -1,19 +1,25 @@
 .auktion-date-div-main {
   h3 {
     font-family: "Big Shoulders Inline Text", sans-serif;
-    font-size: 38.77px;
+    font-size: 38px;
     font-weight: 900;
     line-height: 85.29px;
     letter-spacing: -0.04em;
     text-align: center;
     margin: 0 0 2px 0;
     color: #1b1b1b;
+
+    @media (max-width: 1024px) {
+      font-size: 25px;
+      line-height: 48.91px;
+    }
   }
 
   .auktion-date-alignment-main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     .auktion-date-alignment {
       display: flex;
       justify-content: center;
@@ -22,14 +28,16 @@
       max-width: 609px;
       width: 100%;
       gap: 16px;
-
+      @media (max-width: 1024px) {
+        max-width: 349px;
+        gap: 8px;
+      }
       .auktion-date-border {
         position: absolute;
-        top: 37%;
+        top: 50%;
         left: 0;
         width: 100%;
         transform: translateY(-50%);
-
         height: 1.55px;
         background-color: #1b1b1b;
       }
@@ -44,29 +52,55 @@
           justify-content: center;
           align-items: center;
           position: relative;
+          @media (max-width: 1024px) {
+            padding: 31px 15px;
+          }
 
           span {
             font-family: "Big Shoulders Display", sans-serif;
-            font-size: 47.09px;
+            font-size: 47px;
             font-weight: 900;
             line-height: 44.95px;
             letter-spacing: -0.04em;
             text-align: center;
             color: #f6f1e5;
             min-width: 43px;
+
+            @media (max-width: 1024px) {
+              font-size: 27px;
+              line-height: 25.78px;
+              min-width: 24px;
+            }
           }
         }
-
-        p {
-          margin: 17px 0 0 0;
-          font-family: "Big Shoulders Display", sans-serif;
-          font-size: 15.51px;
-          font-weight: 900;
-          line-height: 32.57px;
-          letter-spacing: -0.04em;
-          text-align: center;
-          color: #1b1b1b;
-          text-transform: uppercase;
+      }
+    }
+    .auktion-date-alignment-sc {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 418px;
+      width: 100%;
+      gap: 16px;
+      @media (max-width: 1024px) {
+        max-width: 240px;
+        gap: 8px;
+      }
+      p {
+        margin: 17px 0 0 0;
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 32.57px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: #1b1b1b;
+        text-transform: uppercase;
+        min-width: 93px;
+        @media (max-width: 1024px) {
+          min-width: 53px;
+          font-size: 8px;
+          line-height: 18.68px;
         }
       }
     }
