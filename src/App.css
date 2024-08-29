@@ -13,27 +13,22 @@ body {
   /* background-color: #f6f1e5; */
 }
 
-/* width */
 /* ::-webkit-scrollbar {
-  width: 7px;
-  height: 5px;
+  width: 0;
+  height: 0;
 } */
 
-/* Track */
 /* ::-webkit-scrollbar-track {
-  background: #FFF;
-} */
+  background: #f6f1e5;
+}
 
-/* Handle */
-/* ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #EF404A;
-  border-radius: 10px 0 0 10px;
-} */
+  background: #1b1b1b;
+}
 
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-  background: #ff000d;
+::-webkit-scrollbar-thumb:hover {
+  background: #1b1b1b;
 } */
 
 /* ::-moz-selection {
