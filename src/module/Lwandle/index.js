@@ -1,7 +1,7 @@
 import React from "react";
 import Lwandleherobanner from "../../components/Lwandlecomponents/Lwandleherobanner";
 import Tomvon from "../../components/Lwandlecomponents/Tomvonsection";
-import Clocksection from "../../components/Homepagecomponents/Herobanner/clocksection";
+import Clocksection from "../../components/Homepagecomponents/clocksection";
 
 function Lwandle() {
   return (
