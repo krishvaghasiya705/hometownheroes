@@ -35,7 +35,8 @@ function Theideasection() {
             </p>
           </div>
         </div>
-
+      </div>
+      <div className="the-ideas-section-container-second">
         <div className="approach-div-main">
           <div>
             <div className="approach-title">

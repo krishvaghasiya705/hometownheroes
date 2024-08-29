@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Lwandleherobanner.scss";
-
 import lwandeimage from "../../../assets/homtownheroesminipageimages/lwandle.png";
 
 function Lwandleherobanner({ hideImage = false, showText = false }) {
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleCheckboxChange = () => {
+    setIsChecked(!isChecked);
+  };
+
   return (
     <>
       <div className="lwandle-herobanner-main">
@@ -54,10 +59,12 @@ function Lwandleherobanner({ hideImage = false, showText = false }) {
                 </div>
                 <div className="redio-input-main">
                   <input
-                    type="radio"
-                    id="css"
-                    name="fav_language"
-                    value="CSS"
+                    type="checkbox"
+                    id="agb"
+                    name="agb"
+                    value="agb"
+                    checked={isChecked}
+                    onChange={handleCheckboxChange}
                   />
                   <p>
                     Es gelten die AGB. Ich habe die Datenschutzerklärung zur
