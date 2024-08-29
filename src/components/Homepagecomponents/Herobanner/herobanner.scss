@@ -1,8 +1,8 @@
 .herobanner-main {
-  width: 100%;
-  height: 100%;
+  
+  
   padding: 67px 0 0 0;
-  box-sizing: border-box;
+  
 
   .herobanner-container {
     max-width: 1270px;
@@ -11,16 +11,17 @@
   }
 
   .herobanner-hometown-div {
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: end;
-    width: 100%;
-    height: 100%;
-    margin: 0 0 69px 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
     align-items: end;
+    
+    
+    margin: 0 0 69px 0;
     gap: 110px;
+
+    @media (max-width: 1024px) {
+      gap: 63px;
+    }
 
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
@@ -28,9 +29,14 @@
       font-weight: 900;
       line-height: 145px;
       letter-spacing: -0.06em;
-      text-align: left;
+      
       color: #1b1b1b;
       max-width: 426px;
+
+      @media (max-width: 1024px) {
+        font-size: 100px;
+        line-height: 83.15px;
+      }
     }
 
     p {
@@ -38,14 +44,20 @@
       font-size: 54.1px;
       font-weight: 700;
       line-height: 56.27px;
-      text-align: left;
+      
       color: #1b1b1b;
       max-width: 304px;
+
+      @media (max-width: 1024px) {
+        font-size: 30px;
+        line-height: 32.27px;
+        max-width: 174px;
+      }
     }
 
     img {
       display: block;
-      width: 100%;
+      
       min-width: 320px;
       max-width: 320px;
       min-height: 428px;
@@ -53,11 +65,11 @@
   }
 
   .auktion-date-div-main {
-    width: 100%;
+    
 
     .fundamental-peragraph-main {
       text-align: center;
-      margin: 0;
+      margin: 69px 0 0 0;
       display: flex;
       justify-content: center;
       align-items: center;

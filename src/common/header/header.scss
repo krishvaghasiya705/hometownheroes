@@ -1,6 +1,6 @@
 header {
-  width: 100%;
-  height: auto;
+  
+  
   position: sticky;
   z-index: 9;
   top: 0;
@@ -15,7 +15,7 @@ header {
   }
 
   .header-content-alignment {
-    width: 100%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +44,7 @@ header {
           font-size: 20px;
           font-weight: 500;
           line-height: 18px;
-          text-align: left;
+          
         }
       }
     }
