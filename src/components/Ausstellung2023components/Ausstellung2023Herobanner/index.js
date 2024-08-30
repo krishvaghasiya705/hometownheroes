@@ -20,7 +20,7 @@ function Ausstellung2023Herobanner() {
               impactful collaborations.“
             </p>
           </div>
-          <div>
+          <div className="date-alignment">
             <h1>2023</h1>
           </div>
           <div className="hometownheroesbannerimage2">

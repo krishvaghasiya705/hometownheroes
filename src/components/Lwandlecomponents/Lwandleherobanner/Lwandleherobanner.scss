@@ -45,6 +45,7 @@
           letter-spacing: -0.04em;
           margin: 0 0 10px 0;
           color: #f6f1e5;
+          text-transform: uppercase;
         }
 
         p {
@@ -89,6 +90,12 @@
           line-height: 22px;
           width: 100%;
           color: #f6f1e5;
+
+          &:focus {
+            outline: none;
+            transition: 0.5s ease-in-out;
+            border-color: #fff;
+          }
         }
 
         .input-div-main {
@@ -129,6 +136,12 @@
           font-weight: 700;
           line-height: 22px;
           color: #f6f1e5;
+
+          &:focus {
+            transition: 0.5s ease-in-out;
+            outline: none;
+            border-color: #fff;
+          }
         }
 
         .input-div-main-alignment {

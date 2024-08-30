@@ -2,129 +2,57 @@ import React from "react";
 import "./ausstellung2024pagelinks.scss";
 import { NavLink } from "react-router-dom";
 
+const links = [
+  { path: "/tomvonbelow", label: "# 1 LWANDLE" },
+  { path: "/tomvonbelow", label: "# 2 BETWEEN WALLS OF REALITY" },
+  { path: "/tomvonbelow", label: "# 3 UNTROUBLED SPIRITS" },
+  { path: "/tomvonbelow", label: "# 4 The Bond of Resilience" },
+  { path: "/tomvonbelow", label: "# 5 Small Protector" },
+  { path: "/tomvonbelow", label: "# 6 Sweet like grapes" },
+  { path: "/tomvonbelow", label: "# 7 Through my lens" },
+  { path: "/tomvonbelow", label: "# 8 Troublemaker" },
+  { path: "/tomvonbelow", label: "# 9 The CEO" },
+  { path: "/tomvonbelow", label: "# 10 Snackprotector" },
+  { path: "/tomvonbelow", label: "# 11 Where Every Corner Speaks" },
+  { path: "/tomvonbelow", label: "# 12 Unfixed views" },
+  { path: "/tomvonbelow", label: "# 13 Lines of Light" },
+  { path: "/tomvonbelow", label: "# 14 Kissed by the Rain I." },
+  { path: "/tomvonbelow", label: "# 15 Kissed by the Rain II." },
+  { path: "/tomvonbelow", label: "# 16 Kissed by the Rain III." },
+  { path: "/tomvonbelow", label: "# 17 Life is Contrast" },
+  { path: "/tomvonbelow", label: "# 18 Pampers" },
+  { path: "/tomvonbelow", label: "# 19 Ubuntu" },
+  { path: "/tomvonbelow", label: "# 20 Be a man" },
+  { path: "/tomvonbelow", label: "# 21 My Home" },
+  { path: "/tomvonbelow", label: "# 22 Truckload full of Joy" },
+  { path: "/tomvonbelow", label: "# 23 PEACE" },
+  { path: "/tomvonbelow", label: "# 24 Outer World" },
+  { path: "/tomvonbelow", label: "# 25 Take my Hand" },
+  { path: "/tomvonbelow", label: "# 26 Still Growing" },
+  { path: "/tomvonbelow", label: "# 27 Are you a Photographer?" },
+  { path: "/tomvonbelow", label: "# 28 Imizamo Yethu" },
+  { path: "/tomvonbelow", label: "# 29 Still Smiling" },
+  { path: "/tomvonbelow", label: "# 30 Too Slow" },
+  { path: "/tomvonbelow", label: "# 31 Small Gestures" },
+  { path: "/tomvonbelow", label: "# 32 Hometown Hero" },
+  { path: "/tomvonbelow", label: "# 33 Little Ms. Sunshine" },
+  { path: "/tomvonbelow", label: "# 34 Garfield" },
+  { path: "/tomvonbelow", label: "# 35 Barbershop" },
+  { path: "/tomvonbelow", label: "# 36 Streetwear" },
+  { path: "/tomvonbelow", label: "# 37 The Gentlemen" },
+  { path: "/tomvonbelow", label: "# 38 Hats Low, Spirits High" },
+  { path: "/tomvonbelow", label: "# 39 Likho" },
+  { path: "/tomvonbelow", label: "# 40 Young Gentlemen" },
+];
+
 function Ausstellung2024pagelinks() {
   return (
     <div className="ausstellung-2024-page-links-main">
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/tomvonbelow"}># 1 LWANDLE</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 2 BETWEEN WALLS OF REALITY</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 3 UNTROUBLED SPIRITS</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 4 The Bond of Resilience</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 5 Small Protector</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 6 Sweet like grapes</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 7 Through my lens</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 8 Troublemaker</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 9 The CEO</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 10 Snackprotector</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 11 Where Every Corner Speaks</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 12 Unfixed views</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 13 Lines of Light</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 14 Kissed by the Rain I.</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 15 Kissed by the Rain II.</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 16 Kissed by the Rain III.</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 17 Life is Contrast</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 18 Pampers</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 19 Ubuntu</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 20 Be a man</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 21 My Home</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 22 Truckload full of Joy</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 23 PEACE</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 24 Outer World</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 25 Take my Hand</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 26 Still Growing</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 27 Are you a Photographer?</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 28 Imizamo Yethu</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 29 Still Smiling</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 30 Too Slow</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 31 Small Gestures</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 32 Hometown Hero</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 33 Little Ms. Sunshine</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 34 Garfield</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 35 Barbershop</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 36 Streetwear</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 37 The Gentlemen</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 38 Hats Low, Spirits High</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 39 Likho</NavLink>
-      </div>
-      <div className="ausstellung-2024-page-link">
-        <NavLink to={"/"}># 40 Young Gentlemen</NavLink>
-      </div>
+      {links.map((link, index) => (
+        <div key={index} className="ausstellung-2024-page-link">
+          <NavLink to={link.path}>{link.label}</NavLink>
+        </div>
+      ))}
     </div>
   );
 }
