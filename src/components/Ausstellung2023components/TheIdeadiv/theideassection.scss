@@ -1,6 +1,11 @@
 .the-ideas-section-main {
-  .the-ideas-section-container {
-    max-width: 1086px;
+  .the-ideas-section-container-one {
+    max-width: 1133px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .the-ideas-section-container-two {
+    max-width: 1180px;
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -42,51 +47,53 @@
     }
   }
 
-  .approach-div-main {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 53px;
+  .the-ideas-section-second {
     margin: -160px 0 93px 0;
-
-    .approach-title {
+    .approach-div-main {
       display: flex;
-      justify-content: space-between;
-      align-items: start;
-      gap: 41px;
-      margin: 0 0 39px 0;
-      h1 {
-        font-family: "Big Shoulders Display", sans-serif;
-        font-size: 148.09px;
-        font-weight: 900;
-        line-height: 128.84px;
-        letter-spacing: -0.06em;
-        color: #1b1b1b;
-        max-width: 219px;
-      }
+      justify-content: end;
+      align-items: center;
+      gap: 53px;
 
-      .hometownheroeskid2-image {
-        img {
-          min-width: 357px;
-          min-height: 511px;
-          display: block;
+      .approach-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 41px;
+        margin: 0 0 39px 0;
+        h1 {
+          font-family: "Big Shoulders Display", sans-serif;
+          font-size: 148.09px;
+          font-weight: 900;
+          line-height: 128.84px;
+          letter-spacing: -0.06em;
+          color: #1b1b1b;
+          max-width: 219px;
+        }
+
+        .hometownheroeskid2-image {
+          img {
+            min-width: 357px;
+            min-height: 511px;
+            display: block;
+          }
         }
       }
-    }
 
-    p {
-      font-family: "Big Shoulders Display", sans-serif;
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 30px;
+      p {
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
 
-      max-width: 618px;
-    }
+        max-width: 618px;
+      }
 
-    .Hometownheroeskid3-image {
-      img {
-        min-width: 509px;
-        min-height: 284px;
+      .Hometownheroeskid3-image {
+        img {
+          min-width: 509px;
+          min-height: 284px;
+        }
       }
     }
   }
