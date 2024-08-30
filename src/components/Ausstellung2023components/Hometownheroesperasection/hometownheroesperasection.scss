@@ -1,10 +1,4 @@
 .hometownheroes-pera-section-main {
-  .hometownheroes-pera-section-container {
-    max-width: 1270px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-
   .hometownheroes-pera-section {
     display: flex;
     align-items: start;
@@ -14,7 +8,7 @@
       flex: 1 1;
 
       img {
-        min-width: 476px;
+        max-width: 476px;
         min-height: 648px;
         display: block;
       }

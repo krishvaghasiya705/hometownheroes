@@ -1,12 +1,6 @@
 .ausstellung2023-main {
   margin: 38px 0 121px 0;
 
-  .ausstellung2023-container {
-    max-width: 1270px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-
   .ausstellung2023-content-alignment {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -20,6 +14,7 @@
       line-height: 175px;
       letter-spacing: -0.06em;
       color: #1b1b1b;
+      margin: 0 0 20px 0;
     }
 
     p {
@@ -36,8 +31,6 @@
 
       img {
         max-width: 387px;
-        min-width: 387px;
-        max-height: 526px;
         min-height: 526px;
       }
     }

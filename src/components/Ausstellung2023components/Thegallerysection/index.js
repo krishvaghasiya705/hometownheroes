@@ -6,7 +6,7 @@ import Thegalleryimage from "../../../assets/image/thegalleryimage.png";
 function Thegallerysection() {
   return (
     <div className="the-gallery-section-main">
-      <div className="the-gallery-section-container">
+      <div className="container-main">
         <div className="the-gallery-section">
             <h1>THE GALLERY</h1>
           <div className="the-gallery-section-image">

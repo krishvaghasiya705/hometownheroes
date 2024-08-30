@@ -8,7 +8,7 @@ import Hometownheroeskid3 from "../../../assets/image/hometownheroeskid3.png";
 function Theideasection() {
   return (
     <div className="the-ideas-section-main">
-      <div className="the-ideas-section-container">
+      <div className="container-main">
         <div>
           <div className="the-ideas-section">
             <div className="hometownheroeskid1-div">

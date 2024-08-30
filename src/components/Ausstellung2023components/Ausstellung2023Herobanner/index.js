@@ -6,7 +6,7 @@ import Hometownheroesbannerimage2 from "../../../assets/image/hometownheroesbann
 function Ausstellung2023Herobanner() {
   return (
     <div className="ausstellung2023-main">
-      <div className="ausstellung2023-container">
+      <div className="container-main">
         <div className="ausstellung2023-content-alignment">
           <div>
             <h1>INTRO</h1>

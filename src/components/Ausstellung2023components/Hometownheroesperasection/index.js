@@ -6,7 +6,7 @@ import Hometownheroesbannerimage2 from "../../../assets/image/hometownheroesbann
 function Hometownheroesperasection() {
   return (
     <div className="hometownheroes-pera-section-main">
-      <div className="hometownheroes-pera-section-container">
+      <div className="container-main">
         <div className="hometownheroes-pera-section">
           <div className="hometownheroesbannerimage-div-main">
             <img

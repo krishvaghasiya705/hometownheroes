@@ -6,7 +6,7 @@ import Hometownheroesmen1 from "../../../assets/image/hometownheroesmen1.png";
 function Thevision() {
   return (
     <div className="the-vision-section-main">
-      <div className="the-vision-section-container">
+      <div className="container-main">
         <div className="the-vision-section">
           <div className="the-vision-content-aliognment">
             <div>

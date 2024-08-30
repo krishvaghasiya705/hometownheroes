@@ -16,10 +16,6 @@
       min-width: 436px;
       min-height: 625px;
     }
-
-    .qvarter-image-side1 {
-      flex: 1 1;
-    }
     .qvarter-image-side2 {
       flex: 2 2;
       margin: 0 1px 0 0;
@@ -30,7 +26,6 @@
         gap: 20px;
 
         .qvarter-image-side2-alignment1 {
-          flex: 1 1;
 
           img {
             min-width: 630px;
@@ -38,7 +33,6 @@
           }
         }
         .qvarter-image-side2-alignment2 {
-          flex: 2 2;
 
           img {
             min-width: 630px;

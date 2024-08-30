@@ -7,7 +7,7 @@ import Clocksection from "../clocksection";
 function Herobanner() {
   return (
     <div className="herobanner-main">
-      <div className="herobanner-container">
+      <div className="container-main">
         <div className="herobanner-hometown-div">
           <>
             <h1>HOME TOWN HEROES</h1>
@@ -33,7 +33,7 @@ function Herobanner() {
           headerFontColor="#1b1b1b"
         />
         <div className="auktion-date-div-main">
-          <div>
+          <>
             <div className="fundamental-peragraph-main">
               <p>
                 The fundamental idea behind Hometown Heroes is to create a
@@ -50,7 +50,7 @@ function Herobanner() {
                 solidarity for a more just world.
               </p>
             </div>
-          </div>
+          </>
         </div>
       </div>
     </div>

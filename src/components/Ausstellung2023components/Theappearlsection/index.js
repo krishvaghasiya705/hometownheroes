@@ -7,7 +7,7 @@ import Collaborationsimage2 from "../../../assets/image/collaborationsimage2.png
 function Theappearlsection() {
   return (
     <div className="the-appearl-section-main">
-      <div className="the-appearl-section-container">
+      <div className="container-main">
         <div className="the-appearl-section">
           <div>
             <h1>THE APPAREL</h1>

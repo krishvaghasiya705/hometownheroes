@@ -31,7 +31,7 @@ function Header() {
 
   return (
     <header style={{ backgroundColor: headerColor }}>
-      <div className="header-container-main">
+      <div className="container-main">
         <div className="header-content-alignment">
           <div className="header-logo-main">
             <NavLink to={"/"}>

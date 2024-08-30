@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function Impressumsection() {
   return (
     <div className="impressum-section-main">
-      <div className="impressum-section-container">
+      <div className="container-main">
         <div className="impressum-section">
           <div>
             <h1>IMPRESSUM</h1>
