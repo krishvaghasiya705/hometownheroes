@@ -20,10 +20,14 @@
       text-align: right;
       color: #1b1b1b;
       max-width: 714px;
+      margin: 0 0 36px 0;
 
       span {
         display: block;
       }
+    }
+    p:last-child {
+      margin: 0 !important;
     }
 
     .thanks-sectionimage-div-main {
@@ -42,8 +46,6 @@
 
       img {
         min-width: 438px;
-        max-width: 438px;
-        max-height: 209px;
         min-height: 209px;
         display: block;
       }
@@ -70,7 +72,6 @@
       font-size: 20px;
       font-weight: 700;
       line-height: 30px;
-
       color: #1b1b1b;
       max-width: 724px;
     }
@@ -90,10 +91,8 @@
       }
 
       img {
-        max-width: 393px;
         min-width: 393px;
         min-height: 145px;
-        max-height: 145px;
       }
     }
   }

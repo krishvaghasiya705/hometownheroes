@@ -15,9 +15,7 @@
 
       img {
         min-width: 476px;
-        max-width: 476px;
         min-height: 648px;
-        max-height: 648px;
         display: block;
       }
     }
@@ -32,6 +30,11 @@
         line-height: 30px;
         color: #1b1b1b;
         max-width: 744px;
+        margin: 0 0 34px 0;
+      }
+
+      p:last-child {
+        margin: 0;
       }
     }
   }

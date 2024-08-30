@@ -21,7 +21,7 @@
 
       img {
         min-height: 594px;
-        max-height: 594px;
+        min-height: 594px;
       }
 
       h1 {
@@ -76,7 +76,7 @@
           font-size: 16px;
           font-weight: 700;
           line-height: 22px;
-
+          display: block;
           color: #f6f1e5;
         }
         input {
@@ -88,7 +88,7 @@
           font-size: 16px;
           font-weight: 700;
           line-height: 22px;
-
+          width: 100%;
           color: #f6f1e5;
           margin: 0 0 10px 0;
         }
@@ -97,8 +97,6 @@
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           gap: 5px;
-          .input-div-main {
-          }
         }
       }
 
@@ -108,7 +106,6 @@
           font-size: 25px;
           font-weight: 900;
           line-height: 22px;
-
           color: #f6f1e5;
           margin: 0 0 20px 0;
         }
@@ -118,7 +115,6 @@
           font-size: 16px;
           font-weight: 700;
           line-height: 22px;
-
           color: #f6f1e5;
         }
         input {
@@ -130,7 +126,6 @@
           font-size: 16px;
           font-weight: 700;
           line-height: 22px;
-
           color: #f6f1e5;
           margin: 0 0 10px 0;
         }
@@ -139,8 +134,6 @@
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           gap: 5px;
-          .input-div-main {
-          }
         }
 
         .redio-input-main {

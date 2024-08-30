@@ -62,11 +62,9 @@
     img {
       display: block;
       min-width: 320px;
-      max-width: 320px;
       min-height: 428px;
 
       @media (max-width: 1024px) {
-        max-width: 183px;
         min-width: 183px;
         min-height: 245px;
       }

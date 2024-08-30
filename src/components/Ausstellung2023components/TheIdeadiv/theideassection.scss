@@ -20,7 +20,6 @@
     .hometownheroeskid1-div {
       img {
         display: block;
-        max-width: 500px;
         min-height: 494px;
       }
     }
@@ -75,7 +74,7 @@
 
       .hometownheroeskid2-image {
         img {
-          max-width: 357px;
+          min-width: 357px;
           min-height: 511px;
           display: block;
         }
@@ -93,8 +92,8 @@
 
     .Hometownheroeskid3-image {
       img {
-        max-width: 509px;
-        max-height: 284px;
+        min-width: 509px;
+        min-height: 284px;
       }
     }
   }

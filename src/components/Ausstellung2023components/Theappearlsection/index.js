@@ -21,8 +21,8 @@ function Theappearlsection() {
                 supports the message of Hometown Heroes: "Equal as Humans,
                 Despite Differences." Each collection will be limited in
                 quantity to create a sense of rarity and collectibility. 
-                <br />
-                <br />
+              </p>
+              <p>
                 Furthermore, the designs for each edition will be individually
                 crafted to align with the specific country where Hometown Heroes
                 has been active. This means there will be country-specific
@@ -44,7 +44,9 @@ function Theappearlsection() {
             <p>
               Our journey with Hometown Heroes has been enriched by valuable
               partnerships with organizations that share our vision for positive
-              change. <br />
+              change.
+            </p>
+            <p>
               Young Bafana, a non-profit organization dedicated to the holistic
               development of underprivileged youth in South Africa, was our
               inaugural partner. Through our first Hometown Heroes exhibition,
@@ -65,8 +67,8 @@ function Theappearlsection() {
               Their support extended to sponsoring the printing of the 34 images
               featured in the exhibition, showcasing their commitment to our
               vision and the power of storytelling through photography. 
-              <br />
-              <br />
+            </p>
+            <p>
               These collaborations have allowed us to expand our reach and
               amplify the message of Hometown Heroes. We are continuously
               seeking new partnerships to further our mission of promoting

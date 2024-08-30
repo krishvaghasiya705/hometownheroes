@@ -27,9 +27,7 @@
     .hometownheroescoffeewithpaperimage {
       img {
         min-width: 354px;
-        max-width: 354px;
         min-height: 587px;
-        max-height: 587px;
         display: block;
       }
     }
@@ -39,9 +37,13 @@
       font-size: 20px;
       font-weight: 700;
       line-height: 30px;
-
+      margin: 0 0 34px 0;
       color: #1b1b1b;
       max-width: 484px;
+    }
+
+    p:last-child {
+      margin: 0 !important;
     }
   }
 }

@@ -18,8 +18,8 @@ function Thevision() {
                 We believe in the power of collective action. Consequently, we
                 want to work closely with established local organizations to
                 facilitate lasting changes and positive impacts in each country.
-                <br />
-                <br />
+              </p>
+              <p>
                 As we set our sights on the future, our vision includes
                 orchestrating exhibitions across Germany, leveraging our robust
                 network of partners, clients, and friends. Our aspiration is to

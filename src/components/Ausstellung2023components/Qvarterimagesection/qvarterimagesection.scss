@@ -13,10 +13,8 @@
 
     img {
       display: block;
-      max-width: 436px;
       min-width: 436px;
       min-height: 625px;
-      max-height: 625px;
     }
 
     .qvarter-image-side1 {
@@ -33,24 +31,18 @@
 
         .qvarter-image-side2-alignment1 {
           flex: 1 1;
-          width: max-content;
 
           img {
             min-width: 630px;
-            max-width: 630px;
             min-height: 303px;
-            max-height: 303px;
           }
         }
         .qvarter-image-side2-alignment2 {
           flex: 2 2;
-          width: max-content;
 
           img {
             min-width: 630px;
-            max-width: 630px;
             min-height: 302px;
-            max-height: 302px;
           }
         }
       }

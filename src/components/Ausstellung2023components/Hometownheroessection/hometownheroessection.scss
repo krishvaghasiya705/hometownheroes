@@ -19,7 +19,6 @@
     }
 
     img {
-      max-height: 351px;
       min-height: 351px;
       display: block;
       margin: 5px 0;
@@ -45,9 +44,7 @@
 
     img {
       min-width: 446px;
-      max-width: 446px;
       min-height: 632px;
-      max-height: 632px;
       display: block;
     }
 
@@ -56,8 +53,11 @@
       font-size: 20px;
       font-weight: 700;
       line-height: 30px;
-
+      margin: 0 0 36px 0;
       color: #1b1b1b;
+    }
+    p:last-child {
+      margin: 0 !important;
     }
   }
 }
