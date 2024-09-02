@@ -16,13 +16,13 @@
       min-height: 594px;
       max-height: 594px;
       max-width: 892px;
-      width: 100%;  
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
 
       img {
-        min-height: 594px;
+        object-fit: none;
       }
 
       h1 {
