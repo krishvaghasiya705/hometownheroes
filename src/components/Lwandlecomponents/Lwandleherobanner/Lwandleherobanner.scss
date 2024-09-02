@@ -15,14 +15,13 @@
     .homtownheroes-mini-page-image-alignment {
       min-height: 594px;
       max-height: 594px;
-      max-width: 892px;
-      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
 
       img {
         object-fit: none;
+        width: auto;
       }
 
       h1 {
