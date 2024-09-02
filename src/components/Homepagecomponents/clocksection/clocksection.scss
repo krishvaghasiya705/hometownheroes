@@ -44,6 +44,7 @@
 
       .auktion-date-show-box-alignment {
         text-align: center;
+        position: relative;
 
         @keyframes flip {
           0% {
@@ -68,32 +69,30 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          position: relative;
 
           @media (max-width: 1024px) {
             padding: 31px 15px;
           }
+        }
+        .calender-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          span {
+            font-family: "Big Shoulders Display", sans-serif;
+            font-size: 47px;
+            font-weight: 900;
+            line-height: 44.95px;
+            letter-spacing: -0.04em;
+            text-align: center;
+            color: #f6f1e5;
+            min-width: 43px;
 
-          .calender-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            span {
-              font-family: "Big Shoulders Display", sans-serif;
-              font-size: 47px;
-              font-weight: 900;
-              line-height: 44.95px;
-              letter-spacing: -0.04em;
-              text-align: center;
-              color: #f6f1e5;
-              min-width: 43px;
-
-              @media (max-width: 1024px) {
-                font-size: 27px;
-                line-height: 25.78px;
-                min-width: 24px;
-              }
+            @media (max-width: 1024px) {
+              font-size: 27px;
+              line-height: 25.78px;
+              min-width: 24px;
             }
           }
         }

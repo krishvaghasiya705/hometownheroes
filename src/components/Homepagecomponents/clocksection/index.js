@@ -95,10 +95,9 @@ function Clocksection({
               <div
                 className={`auktion-date-show-box ${flipClass[unit]}`}
                 style={{ backgroundColor: boxBackgroundColor }}
-              >
-                <div className="calender-text">
-                  <span style={{ color: boxFontColor }}>{timeLeft[unit]}</span>
-                </div>
+              ></div>
+              <div className="calender-text">
+                <span style={{ color: boxFontColor }}>{timeLeft[unit]}</span>
               </div>
             </div>
           ))}
