@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import "./clocksection.scss";
 
 const calculateTimeLeft = () => {
@@ -35,8 +35,8 @@ function Clocksection({
     seconds: "",
   });
 
-  const flipInterval = 60000; // 60 seconds in milliseconds
-  const flipDuration = 600; // Duration of flip animation in milliseconds
+  const flipInterval = 60000;
+  const flipDuration = 600;
 
   useEffect(() => {
     const updateTime = () => {
@@ -44,7 +44,6 @@ function Clocksection({
       const newTimeLeft = calculateTimeLeft();
       setTimeLeft(newTimeLeft);
 
-      // Flip effect handling
       const nextFlipTime = Math.ceil(now / flipInterval) * flipInterval;
       const timeUntilNextFlip = nextFlipTime - now;
 
@@ -70,17 +69,15 @@ function Clocksection({
             minutes: "",
             seconds: "",
           });
-        }, flipDuration); // Duration of flip-out animation
-      }, flipDuration); // Duration of flip animation
+        }, flipDuration);
+      }, flipDuration);
 
-      // Schedule the next flip update
       setTimeout(updateTime, timeUntilNextFlip);
     };
 
-    // Update time every second
     const intervalId = setInterval(updateTime, 1000);
 
-    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
