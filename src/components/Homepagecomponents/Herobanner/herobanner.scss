@@ -26,14 +26,14 @@
       font-weight: 900;
       line-height: 145px;
       letter-spacing: -0.06em;
-
       color: #1b1b1b;
-      max-width: 426px;
+      min-width: 416px;
 
       @media (max-width: 1024px) {
         font-size: 100px;
         line-height: 83.15px;
         max-width: 245px;
+        min-width: none;
       }
     }
 

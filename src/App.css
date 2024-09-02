@@ -18,6 +18,7 @@ p {
 
 h1 {
   text-transform: uppercase;
+  word-break: break-all;
 }
 
 html {

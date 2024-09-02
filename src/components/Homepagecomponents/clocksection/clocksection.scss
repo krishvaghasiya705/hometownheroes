@@ -45,18 +45,25 @@
       .auktion-date-show-box-alignment {
         text-align: center;
         .auktion-date-show-box {
-          padding: 54px 25px;
+          padding: 76px 47px;
           border-radius: 11px;
           background-color: #1b1b1b;
           display: flex;
           justify-content: center;
           align-items: center;
           position: relative;
+          transform: rotateX(0deg);
+          transition: transform 0.6s ease;
+
           @media (max-width: 1024px) {
             padding: 31px 15px;
           }
 
           span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             font-family: "Big Shoulders Display", sans-serif;
             font-size: 47px;
             font-weight: 900;
@@ -71,6 +78,11 @@
               line-height: 25.78px;
               min-width: 24px;
             }
+          }
+
+          &.active {
+            transform: rotateX(180deg);
+            transition: transform 0.3s ease;
           }
         }
       }
