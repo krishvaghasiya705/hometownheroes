@@ -35,49 +35,52 @@ function Clocksection({
     seconds: "",
   });
 
-  const prevTimeLeft = useRef(timeLeft);
-  const lastFlipTime = useRef(Date.now());
+  const flipInterval = 60000; // 60 seconds in milliseconds
+  const flipDuration = 600; // Duration of flip animation in milliseconds
 
   useEffect(() => {
-    const timer = setInterval(() => {
+    const updateTime = () => {
       const now = Date.now();
       const newTimeLeft = calculateTimeLeft();
+      setTimeLeft(newTimeLeft);
 
-      // Flip effect only if 60 seconds have passed
-      if (now - lastFlipTime.current >= 60000) {
+      // Flip effect handling
+      const nextFlipTime = Math.ceil(now / flipInterval) * flipInterval;
+      const timeUntilNextFlip = nextFlipTime - now;
+
+      setFlipClass({
+        days: "flip",
+        hours: "flip",
+        minutes: "flip",
+        seconds: "flip",
+      });
+
+      setTimeout(() => {
         setFlipClass({
-          days: "flip",
-          hours: "flip",
-          minutes: "flip",
-          seconds: "flip",
+          days: "flip-out",
+          hours: "flip-out",
+          minutes: "flip-out",
+          seconds: "flip-out",
         });
-
-        lastFlipTime.current = now;
 
         setTimeout(() => {
           setFlipClass({
-            days: "flip-out",
-            hours: "flip-out",
-            minutes: "flip-out",
-            seconds: "flip-out",
+            days: "",
+            hours: "",
+            minutes: "",
+            seconds: "",
           });
+        }, flipDuration); // Duration of flip-out animation
+      }, flipDuration); // Duration of flip animation
 
-          setTimeout(() => {
-            setFlipClass({
-              days: "",
-              hours: "",
-              minutes: "",
-              seconds: "",
-            });
-          }, 600); // Duration of flip-out animation
-        }, 600); // Duration of flip animation
-      }
+      // Schedule the next flip update
+      setTimeout(updateTime, timeUntilNextFlip);
+    };
 
-      setTimeLeft(newTimeLeft);
-      prevTimeLeft.current = newTimeLeft;
-    }, 1000);
+    // Update time every second
+    const intervalId = setInterval(updateTime, 1000);
 
-    return () => clearInterval(timer);
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
   }, []);
 
   return (
@@ -96,7 +99,9 @@ function Clocksection({
                 className={`auktion-date-show-box ${flipClass[unit]}`}
                 style={{ backgroundColor: boxBackgroundColor }}
               >
-                <span style={{ color: boxFontColor }}>{timeLeft[unit]}</span>
+                <div className="calender-text">
+                  <span style={{ color: boxFontColor }}>{timeLeft[unit]}</span>
+                </div>
               </div>
             </div>
           ))}
