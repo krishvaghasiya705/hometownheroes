@@ -12,9 +12,19 @@ import Theappearlsection from "../../components/Ausstellung2023components/Theapp
 import Hometownheroessection from "../../components/Ausstellung2023components/Hometownheroessection";
 import Thanksection from "../../components/Ausstellung2023components/Thanksection";
 
+
+
+import { Helmet } from "react-helmet";
+
 function Ausstellung2023() {
   return (
     <div>
+
+      <Helmet>
+        <title>HOMETOWNHEROES - Ausstellung2023</title>
+      </Helmet>
+
+
       <Ausstellung2023Herobanner />
       <Theideasection />
       <Thevision />

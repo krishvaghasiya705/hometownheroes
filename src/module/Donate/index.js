@@ -3,9 +3,18 @@ import Tomvon from "../../components/Lwandlecomponents/Tomvonsection";
 import Lwandleherobanner from "../../components/Lwandlecomponents/Lwandleherobanner";
 import Clocksection from "./../../components/Homepagecomponents/clocksection/index";
 
+
+import { Helmet } from "react-helmet";
+
 function Donate() {
+
   return (
     <>
+      <Helmet>
+        <title>HOMETOWNHEROES - Donate</title>
+      </Helmet>
+
+
       <Lwandleherobanner hideImage={true} showText={true} />
       <Tomvon />
       <Clocksection

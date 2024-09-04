@@ -10,10 +10,17 @@ import Theappearlsection from "../../components/Ausstellung2023components/Theapp
 import Hometownheroessection from "../../components/Ausstellung2023components/Hometownheroessection";
 import Thanksection from "../../components/Ausstellung2023components/Thanksection";
 import Followthejourneyherobanner from "../../components/Followthejourneycomponent/Followthejourneyherobanner";
+import { Helmet } from "react-helmet";
 
 function Followthejourney() {
   return (
     <>
+
+      <Helmet>
+        <title>HOMETOWNHEROES - Followthejourney</title>
+      </Helmet>
+
+
       <Followthejourneyherobanner />
       <Theideasection />
       <Thevision />
