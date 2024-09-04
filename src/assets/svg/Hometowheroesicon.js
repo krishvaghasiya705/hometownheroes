@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hometowheroesicon({ color = "#000" }) {
+function Hometowheroesicon({ color = "#1B1B1B" }) {
   return (
     <svg
       width="228"

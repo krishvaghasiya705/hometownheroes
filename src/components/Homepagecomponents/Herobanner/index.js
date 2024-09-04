@@ -13,9 +13,13 @@ function Herobanner() {
             <h1>HOME TOWN HEROES</h1>
           </>
 
-          <>
+          <div className="hometown-herobanner-center-content">
             <p>A PHOTOGRAPHIC JOURNEY THROUGH THE TOWNSHIPS OF CAPE TOWN</p>
-          </>
+            <img
+              src={Hometownheroesbannerimage}
+              alt="Hometownheroesbannerimage"
+            />
+          </div>
 
           <>
             <img

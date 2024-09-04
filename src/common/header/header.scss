@@ -9,11 +9,40 @@ header {
   @media (max-width: 1024px) {
     padding: 23px 11px;
   }
+  @media (max-width: 576px) {
+    padding: 44px 44px 10px 44px;
+  }
+
+  .container-main {
+    @media (max-width: 576px) {
+      padding: 0;
+    }
+  }
+
+  .header-menu {
+    display: none;
+    margin: 0;
+
+    @media (max-width: 576px) {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin: 0 0 15px 0;
+    }
+
+    svg {
+      cursor: pointer;
+    }
+  }
 
   .header-content-alignment {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 576px) {
+      justify-content: center;
+    }
 
     .header-logo-main {
       a {
@@ -39,6 +68,10 @@ header {
       @media (max-width: 1024px) {
         gap: 22px;
         justify-content: end;
+      }
+
+      @media (max-width: 576px) {
+        display: none;
       }
 
       a {

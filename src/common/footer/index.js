@@ -3,6 +3,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import "./footer.scss";
 
 import Jesamicon from "../../assets/svg/Jesamicon";
+import Jedsamiconmobile from "../../assets/svg/jedsamiconmobile";
 
 export default function Footer({
   navLinkColor: propNavLinkColor,
@@ -71,6 +72,11 @@ export default function Footer({
           <div className="jesam-icon-div-main">
             <NavLink to={"/"}>
               <Jesamicon color1={svgPathColor1} color2={svgPathColor2} />
+            </NavLink>
+          </div>
+          <div className="jesam-icon-mobile-div-main">
+            <NavLink to={"/"}>
+              <Jedsamiconmobile color1={svgPathColor1} color2={svgPathColor2} />
             </NavLink>
           </div>
         </div>

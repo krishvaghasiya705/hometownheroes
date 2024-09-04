@@ -25,6 +25,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration-line: none;
+}
+
 body {
   /* background-color: #f6f1e5; */
 }

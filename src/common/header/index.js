@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import "./header.scss";
 import Hometowheroesicon from "../../assets/svg/Hometowheroesicon";
+import Hemburger from "../../assets/svg/Hemburger";
+import Sidebar from "../../components/Sidebar";
 
 function Header() {
   const location = useLocation();
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
   let headerColor, svgPathColor, navLinkColor;
 
   switch (location.pathname) {
@@ -29,9 +33,16 @@ function Header() {
       break;
   }
 
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <header style={{ backgroundColor: headerColor }}>
       <div className="container-main">
+        <div className="header-menu" onClick={toggleSidebar}>
+          <Hemburger color={svgPathColor} />
+        </div>
         <div className="header-content-alignment">
           <div className="header-logo-main">
             <NavLink to={"/"}>
@@ -54,6 +65,8 @@ function Header() {
           </div>
         </div>
       </div>
+
+      <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
     </header>
   );
 }

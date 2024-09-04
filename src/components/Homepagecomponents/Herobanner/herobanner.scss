@@ -3,6 +3,15 @@
   @media (max-width: 1024px) {
     padding: 68px 0 267px 0;
   }
+  @media (max-width: 576px) {
+    padding: 0;
+  }
+
+  .container-main {
+    @media (max-width: 576px) {
+      padding: 0;
+    }
+  }
 
   .herobanner-hometown-div {
     display: flex;
@@ -16,8 +25,31 @@
     }
 
     @media (max-width: 576px) {
-      display: grid;
-      grid-template-columns: repeat(1, 2fr);
+      display: block;
+      overflow: hidden;
+      margin: 0 0 43px 0;
+    }
+
+    .hometown-herobanner-center-content {
+      display: block;
+      margin: 0;
+
+      @media (max-width: 576px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        margin: 43px 37px 0 22px;
+      }
+
+      img {
+        display: none;
+        @media (max-width: 576px) {
+          display: block;
+          min-width: 148px;
+          max-width: 148px;
+          min-height: 198px;
+        }
+      }
     }
 
     h1 {
@@ -33,7 +65,19 @@
         font-size: 100px;
         line-height: 83.15px;
         max-width: 245px;
-        min-width: none;
+        min-width: auto;
+      }
+      @media (max-width: 576px) {
+        font-size: 250px;
+        line-height: 209px;
+
+        max-width: none;
+        min-width: auto;
+        word-break: keep-all;
+      }
+      @media (max-width: 393px) {
+        font-size: 174px;
+        line-height: 145px;
       }
     }
 
@@ -42,7 +86,6 @@
       font-size: 54.1px;
       font-weight: 700;
       line-height: 56.27px;
-
       color: #1b1b1b;
       max-width: 304px;
 
@@ -50,6 +93,11 @@
         font-size: 30px;
         line-height: 32.27px;
         max-width: 174px;
+      }
+      @media (max-width: 576px) {
+        font-size: 25px;
+        line-height: 26px;
+        max-width: 134px;
       }
     }
 
@@ -59,8 +107,13 @@
       min-height: 428px;
 
       @media (max-width: 1024px) {
-        min-width: 183px;
-        min-height: 245px;
+        max-width: 183px;
+        max-height: 245px;
+        min-width: auto;
+        min-height: auto;
+      }
+      @media (max-width: 576px) {
+        display: none;
       }
     }
   }
@@ -72,6 +125,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @media (max-width: 576px) {
+        margin: 40px 0 0 0;
+        padding: 0 25px 0 22px;
+        display: block;
+      }
 
       p {
         font-family: "Big Shoulders Display", sans-serif;
@@ -86,6 +145,12 @@
           font-size: 16px;
           line-height: 22px;
           max-width: 728px;
+        }
+        @media (max-width: 576px) {
+          font-size: 16px;
+          line-height: 18px;
+          text-align: left;
+          max-width: 281px;
         }
       }
     }
