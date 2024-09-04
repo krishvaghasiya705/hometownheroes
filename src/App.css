@@ -29,14 +29,10 @@ a {
   text-decoration-line: none;
 }
 
-body {
-  /* background-color: #f6f1e5; */
-}
-
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0;
   height: 0;
-} */
+}
 
 /* ::-webkit-scrollbar-track {
   background: #f6f1e5;
@@ -51,15 +47,15 @@ body {
   background: #1b1b1b;
 } */
 
-/* ::-moz-selection {
-  color: #EF404A;
-  background: #FFF;
-} */
+::-moz-selection {
+  /* color: #fff; */
+  background: transparent;
+}
 
-/* ::selection {
-  color: #EF404A;
-  background: #FFF;
-} */
+::selection {
+  /* color: #fff; */
+  background: transparent;
+}
 img {
   -moz-user-select: none;
   -webkit-user-select: none;

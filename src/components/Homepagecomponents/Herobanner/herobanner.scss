@@ -1,8 +1,10 @@
 .herobanner-main {
   padding: 67px 0 0 0;
+
   @media (max-width: 1024px) {
     padding: 68px 0 267px 0;
   }
+
   @media (max-width: 576px) {
     padding: 0;
   }
@@ -15,12 +17,12 @@
 
   .herobanner-hometown-div {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: end;
     margin: 0 0 69px 0;
-    gap: 110px;
 
     @media (max-width: 1024px) {
+      justify-content: center;
       gap: 63px;
     }
 
@@ -31,7 +33,6 @@
     }
 
     .hometown-herobanner-center-content {
-      display: block;
       margin: 0;
 
       @media (max-width: 576px) {
@@ -43,6 +44,7 @@
 
       img {
         display: none;
+
         @media (max-width: 576px) {
           display: block;
           min-width: 148px;
@@ -59,25 +61,19 @@
       line-height: 145px;
       letter-spacing: -0.06em;
       color: #1b1b1b;
-      min-width: 416px;
+      max-width: 416px;
 
       @media (max-width: 1024px) {
         font-size: 100px;
         line-height: 83.15px;
         max-width: 245px;
-        min-width: auto;
       }
+
       @media (max-width: 576px) {
         font-size: 250px;
         line-height: 209px;
-
         max-width: none;
-        min-width: auto;
         word-break: keep-all;
-      }
-      @media (max-width: 393px) {
-        font-size: 174px;
-        line-height: 145px;
       }
     }
 
@@ -94,6 +90,7 @@
         line-height: 32.27px;
         max-width: 174px;
       }
+
       @media (max-width: 576px) {
         font-size: 25px;
         line-height: 26px;
@@ -112,6 +109,7 @@
         min-width: auto;
         min-height: auto;
       }
+
       @media (max-width: 576px) {
         display: none;
       }
@@ -122,14 +120,11 @@
     .fundamental-peragraph-main {
       text-align: center;
       margin: 69px 0 0 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
 
       @media (max-width: 576px) {
         margin: 40px 0 0 0;
         padding: 0 25px 0 22px;
-        display: block;
+        text-align: left;
       }
 
       p {
@@ -137,7 +132,6 @@
         font-size: 20px;
         font-weight: 600;
         line-height: 30px;
-        text-align: center;
         color: #000000;
         max-width: 961px;
 
@@ -146,10 +140,10 @@
           line-height: 22px;
           max-width: 728px;
         }
+
         @media (max-width: 576px) {
           font-size: 16px;
           line-height: 18px;
-          text-align: left;
           max-width: 281px;
         }
       }
