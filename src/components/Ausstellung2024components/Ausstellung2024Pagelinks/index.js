@@ -2,7 +2,7 @@ import React from "react";
 import "./ausstellung2024pagelinks.scss";
 import { NavLink } from "react-router-dom";
 
-/* <------------------- images -------------------> */
+/* <------------------- rout based images -------------------> */
 import lwandeimage1 from "../../../assets/homtownheroesminipageimages/homtownheroesminipageimages1.png";
 import lwandeimage2 from "../../../assets/homtownheroesminipageimages/homtownheroesminipageimages2.png";
 import lwandeimage3 from "../../../assets/homtownheroesminipageimages/homtownheroesminipageimages3.png";
