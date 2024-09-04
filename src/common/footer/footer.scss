@@ -2,8 +2,7 @@ footer {
   padding: 0 0 30px 0;
 
   @media (max-width:576px) {
-    padding: 0 0 20px 0
-    ;
+    padding: 0 0 20px 0;
   }
 
   .footer-container {
@@ -26,16 +25,34 @@ footer {
       text-align: center;
       color: #1b1b1b;
       font-family: "Big Shoulders Display", sans-serif;
-      font-size: 98.05px;
+      font-size: 98px;
       font-weight: 900;
-      line-height: 85.3px;
+      line-height: 85px;
       letter-spacing: -0.06em;
       max-width: 700px;
       margin: 0 0 50px 0;
+
+      @media (max-width:768px) {
+        font-size: 56px;
+        line-height: 49px;
+        max-width: 385px;
+        margin: 0 0 28px 0;
+      }
+
+      @media (max-width:576px) {
+        font-size: 98px;
+        line-height: 85px;
+        max-width: 417px;
+      }
     }
 
     .contact-div {
       text-align: center;
+      margin: 0;
+
+      @media (max-width:576px) {
+        margin: 0 0 31px 0;
+      }
 
       span {
         font-family: "Big Shoulders Display", sans-serif;
@@ -44,6 +61,16 @@ footer {
         line-height: 30px;
         text-align: center;
         color: #1b1b1b;
+
+        @media (max-width:768px) {
+          font-size: 12px;
+          line-height: 17px;
+        }
+
+        @media (max-width:576px) {
+          font-size: 14px;
+          line-height: 20px;
+        }
       }
 
       p {
@@ -54,6 +81,18 @@ footer {
         text-align: center;
         color: #1b1b1b;
         margin: 20px 0 0 0;
+
+        @media (max-width:768px) {
+          font-size: 12px;
+          line-height: 17px;
+          margin: 16px 0 0 0;
+        }
+
+        @media (max-width:576px) {
+          font-size: 14px;
+          line-height: 20px;
+          margin: 19px 0 0 0;
+        }
       }
 
       a {
@@ -65,6 +104,16 @@ footer {
         text-align: center;
         color: #1b1b1b;
         display: block;
+
+        @media (max-width:768px) {
+          font-size: 12px;
+          line-height: 17px;
+        }
+
+        @media (max-width:576px) {
+          font-size: 14px;
+          line-height: 20px;
+        }
       }
     }
 
@@ -73,6 +122,10 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @media (max-width:768px) {
+        margin: 28px auto 0 auto;
+      }
 
       @media (max-width: 576px) {
         margin: 60px 0 0 0;
@@ -83,11 +136,17 @@ footer {
         text-decoration-line: none;
         color: #1b1b1b;
         font-family: "Big Shoulders Display", sans-serif;
-        font-size: 16.62px;
+        font-size: 16px;
         font-weight: 600;
         line-height: 18px;
         text-align: center;
         min-width: 96px;
+
+        @media (max-width:768px) {
+          font-size: 9px;
+          line-height: 10px;
+          min-width: 55px;
+        }
 
         @media (max-width:576px) {
           text-align: left;
@@ -101,12 +160,25 @@ footer {
       justify-content: center;
       align-items: center;
 
+      @media (max-width: 768px) {
+        margin: 28px 0 0 0;
+      }
+
       @media (max-width: 576px) {
         margin: 2px 0 0 0;
         display: none;
       }
+
       a {
         text-decoration-line: none;
+
+        svg {
+          width: auto;
+
+          @media (max-width: 768px) {
+            width: 94px;
+          }
+        }
       }
     }
 
