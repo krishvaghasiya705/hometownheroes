@@ -1,10 +1,19 @@
 .the-appearl-section-main {
   padding: 0 0 100px 0;
+
+  @media (max-width:1024px) {
+    padding: 0 0 57px 0;
+  }
+
   .the-appearl-section {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 0 100px 0;
+
+    @media (max-width:1024px) {
+      margin: 0 0 57px 0;
+    }
 
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
@@ -15,6 +24,12 @@
       text-align: center;
       color: #1b1b1b;
       margin: 0 0 28px 0;
+
+      @media (max-width:1024px) {
+        font-size: 75px;
+        line-height: 63px;
+        margin: 0 0 16px 0;
+      }
     }
 
     p {
@@ -26,7 +41,15 @@
       color: #1b1b1b;
       max-width: 972px;
       margin: 0 0 34px 0;
+
+      @media (max-width:1024px) {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 0 0 20px 0;
+        max-width: 562px;
+      }
     }
+
     p:last-child {
       margin: 0 !important;
     }
@@ -37,6 +60,20 @@
     justify-content: center;
     align-items: start;
     gap: 150px;
+
+    @media (max-width:1024px) {
+      gap: 86px;
+    }
+
+    .collaborations-flx-items1-sc {
+      p {
+        margin: 30px auto 0 auto !important;
+
+        @media (max-width:1024px) {
+          margin: 17px auto 0 auto !important;
+        }
+      }
+    }
 
     .collaborations-flx-items1 {
       h2 {
@@ -50,12 +87,34 @@
         margin: 0 0 30px 0;
         max-width: 432px;
         word-break: break-all;
+
+        @media (max-width:1024px) {
+          font-size: 75px;
+          line-height: 63px;
+          margin: 0 0 17px 0;
+          max-width: 250px;
+        }
+      }
+
+      img {
+        max-height: none;
+        min-width: 432px;
+        max-width: none;
+
+        @media (max-width:1024px) {
+          min-width: 250px;
+          max-width: 250px;
+        }
       }
 
       .collaborations-image-div {
         img {
-          min-width: 432px;
           min-height: 104px;
+
+          @media (max-width:1024px) {
+            min-height: 60px;
+            max-height: 60px;
+          }
         }
 
         p {
@@ -66,13 +125,22 @@
           line-height: 30px;
           font-size: 20px;
           max-width: none;
+
+          @media (max-width:1024px) {
+            font-size: 12px;
+            line-height: 17px;
+          }
         }
       }
 
-      .collaborations-image-div {
+      .collaborations-image-div-sc {
         img {
-          min-width: 432px;
           min-height: 126px;
+
+          @media (max-width:1024px) {
+            min-height: 73px;
+            max-height: 73px;
+          }
         }
       }
 
@@ -84,6 +152,13 @@
         line-height: 30px;
         font-size: 20px;
         max-width: 432px;
+
+        @media (max-width:1024px) {
+          font-size: 12px;
+          line-height: 17px;
+          max-width: 250px;
+          margin: 17px auto 20px auto;
+        }
       }
 
       p:last-child {

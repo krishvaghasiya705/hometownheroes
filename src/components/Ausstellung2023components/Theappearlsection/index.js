@@ -35,7 +35,7 @@ function Theappearlsection() {
         </div>
 
         <div className="collaborations-flx-main">
-          <div className="collaborations-flx-items1">
+          <div className="collaborations-flx-items1 collaborations-flx-items1-sc">
             <h2>COLLABORATIONS</h2>
             <div className="collaborations-image-div">
               <img src={Collaborationsimage1} alt="Collaborationsimage1" />
@@ -55,7 +55,7 @@ function Theappearlsection() {
               the gallery.
             </p>
           </div>
-          <div className="collaborations-flx-items1">
+          <div className="collaborations-flx-items1 collaborations-flx-items1-th">
             <h2>COLLABORATIONS</h2>
             <div className="collaborations-image-div collaborations-image-div-sc">
               <img src={Collaborationsimage2} alt="Collaborationsimage2" />

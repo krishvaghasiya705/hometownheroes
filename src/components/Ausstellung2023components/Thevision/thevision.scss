@@ -10,11 +10,22 @@
       align-items: start;
       gap: 47px;
 
+      @media (max-width:1024px) {
+        gap: 27px;
+      }
+
       img {
         display: block;
         margin: 0 0 47px 0;
         min-width: 354px;
         min-height: 226px;
+
+        @media (max-width:1024px) {
+          min-width: 205px;
+          max-width: 205px;
+          min-height: 130px;
+          margin: 0 0 27px 0;
+        }
       }
 
       h1 {
@@ -26,6 +37,12 @@
         text-align: right;
         color: #1b1b1b;
         max-width: 322px;
+
+        @media (max-width:1024px) {
+          font-size: 85px;
+          line-height: 74px;
+          max-width: 186px;
+        }
       }
 
       p {
@@ -36,6 +53,13 @@
         margin: 0 0 34px 0;
         color: #1b1b1b;
         max-width: 375px;
+        
+        @media (max-width:1024px) {
+          font-size: 12px;
+          line-height: 17px;
+          max-width: 206px;
+          margin: 0 0 20px 0;
+        }
       }
 
       p:last-child {

@@ -1,11 +1,21 @@
 .ausstellung2023-main {
   margin: 38px 0 121px 0;
 
+  @media (max-width:1024px) {
+    margin: 17px 0 70px 0;
+  }
+
   .ausstellung2023-content-alignment {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: end;
     gap: 35px;
+
+    @media (max-width:1024px) {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+    }
 
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
@@ -15,6 +25,11 @@
       letter-spacing: -0.06em;
       color: #1b1b1b;
       margin: 0 0 20px 0;
+
+      @media (max-width:1024px) {
+        font-size: 115px;
+        line-height: 100px;
+      }
     }
 
     p {
@@ -24,11 +39,18 @@
       line-height: 30px;
       color: #1b1b1b;
       max-width: 409px;
+
+      @media (max-width:1024px) {
+        font-size: 12px;
+        line-height: 17px;
+        max-width: 236px;
+      }
     }
 
     .date-alignment {
 
       h1 {
+        text-align: center;
         margin: 0 !important;
       }
     }
@@ -39,6 +61,11 @@
       img {
         max-width: 387px;
         min-height: 526px;
+
+        @media (max-width:1024px) {
+          max-width: 224px;
+          min-height: 304px;
+        }
       }
     }
   }

@@ -49,12 +49,12 @@ a {
 
 ::-moz-selection {
   /* color: #fff; */
-  background: transparent;
+  background: #8080809c;
 }
 
 ::selection {
   /* color: #fff; */
-  background: transparent;
+  background: #8080809c;
 }
 img {
   -moz-user-select: none;

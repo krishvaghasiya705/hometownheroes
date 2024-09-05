@@ -1,6 +1,10 @@
 .qvarter-image-section-main {
   padding: 100px 0;
 
+  @media (max-width:1024px) {
+    padding: 57px 0;
+  }
+
   .qvarter-image-section-container {
     max-width: 1087px;
     margin: 0 auto;
@@ -10,14 +14,25 @@
   .qvarter-image-section {
     display: flex;
     gap: 20px;
+    justify-content: start;
+
+    @media (max-width:1024px) {
+      gap: 11px;
+      justify-content: center;
+    }
 
     img {
-      display: block;
       min-width: 436px;
       min-height: 625px;
+
+      @media (max-width:1024px) {
+        min-width: auto;
+        max-width: 252px;
+        min-height: 362px;
+      }
     }
+
     .qvarter-image-side2 {
-      flex: 2 2;
       margin: 0 1px 0 0;
 
       .qvarter-image-side2-alignment {
@@ -25,18 +40,39 @@
         flex-direction: column;
         gap: 20px;
 
+        @media (max-width:1024px) {
+          gap: 11px;
+        }
+
+        img {
+          min-width: 630px;
+
+          @media (max-width:1024px) {
+            min-width: 365px;
+          }
+        }
+
         .qvarter-image-side2-alignment1 {
 
           img {
-            min-width: 630px;
             min-height: 303px;
+
+            @media (max-width:1024px) {
+              min-height: auto;
+              max-height: 176px;
+            }
           }
         }
+
         .qvarter-image-side2-alignment2 {
 
           img {
-            min-width: 630px;
             min-height: 302px;
+
+            @media (max-width:1024px) {
+              min-height: auto;
+              max-height: 175px;
+            }
           }
         }
       }

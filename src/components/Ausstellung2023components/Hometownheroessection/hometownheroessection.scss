@@ -1,6 +1,10 @@
 .home-town-heroes-section-main {
   padding: 0 0 87px 0;
 
+  @media (max-width:1024px) {
+    padding: 0 0 37px 0;
+  }
+
   .home-town-heroes-section-container {
     max-width: 1128px;
     margin: 0 auto;
@@ -8,6 +12,15 @@
   }
 
   .home-town-heroes-section {
+    display: block;
+
+    @media (max-width:1024px) {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
       font-size: 138px;
@@ -16,12 +29,23 @@
       letter-spacing: -0.06em;
       text-align: center;
       color: #1b1b1b;
+
+      @media (max-width:1024px) {
+        font-size: 75px;
+        line-height: 69px;
+      }
     }
 
     img {
+      max-width: none;
       min-height: 351px;
       display: block;
       margin: 5px 0;
+
+      @media (max-width:1024px) {
+        max-width: 641px;
+        min-height: 203px;
+      }
     }
 
     span {
@@ -42,6 +66,11 @@
     align-items: start;
     gap: 30px;
 
+    @media (max-width:1024px) {
+      margin: 10px 0 0 0;
+      justify-content: center;
+    }
+
     img {
       min-width: 446px;
       min-height: 632px;
@@ -56,6 +85,7 @@
       margin: 0 0 36px 0;
       color: #1b1b1b;
     }
+
     p:last-child {
       margin: 0 !important;
     }

@@ -120,11 +120,14 @@
     .fundamental-peragraph-main {
       text-align: center;
       margin: 69px 0 0 0;
+      display: flex;
+      justify-content: center;
 
       @media (max-width: 576px) {
         margin: 40px 0 0 0;
         padding: 0 25px 0 22px;
         text-align: left;
+        display: block;
       }
 
       p {

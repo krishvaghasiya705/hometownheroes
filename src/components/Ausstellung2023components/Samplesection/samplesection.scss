@@ -1,6 +1,10 @@
 .sample-section-main {
   padding: 0 0 100px 0;
 
+  @media (max-width:1024px) {
+    padding: 0 0 57px 0;
+  }
+
   .sample-section-container {
     max-width: 1003px;
     margin: 0 auto;
@@ -16,6 +20,11 @@
       letter-spacing: -0.06em;
       text-align: center;
       color: #1b1b1b;
+
+      @media (max-width:1024px) {
+        font-size: 85px;
+        line-height: 63px;
+      }
     }
 
     .sample-section-images-grd {
@@ -25,10 +34,24 @@
       align-items: center;
       gap: 50px;
 
+      @media (max-width:1024px) {
+        margin: 34px 0 0 0;
+        gap: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
       img {
         min-width: 300px;
         min-height: 300px;
         display: block;
+
+        @media (max-width:1024px) {
+          min-width: auto;
+          max-width: 174px;
+          min-height: 173px;
+        }
       }
     }
   }

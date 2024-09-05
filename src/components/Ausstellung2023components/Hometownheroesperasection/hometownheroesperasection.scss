@@ -1,35 +1,50 @@
 .hometownheroes-pera-section-main {
   .hometownheroes-pera-section {
     display: flex;
+    justify-content: start;
     align-items: start;
     gap: 60px;
 
-    .hometownheroesbannerimage-div-main {
-      flex: 1 1;
-
-      img {
-        max-width: 476px;
-        min-height: 648px;
-        display: block;
-      }
+    @media (max-width:1024px) {
+      gap: 34px;
     }
 
-    .hometownheroesbanner-peraghraph-div-main {
-      flex: 2 2;
+      .hometownheroesbannerimage-div-main {
 
-      p {
-        font-family: "Big Shoulders Display", sans-serif;
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 30px;
-        color: #1b1b1b;
-        max-width: 744px;
-        margin: 0 0 34px 0;
+        img {
+          max-width: 476px;
+          min-height: 648px;
+
+          @media (max-width:1024px) {
+            max-width: 275px;
+            min-height: 375px;
+          }
+        }
       }
 
-      p:last-child {
-        margin: 0;
+      .hometownheroesbanner-peraghraph-div-main {
+        flex: 2 2;
+
+        p {
+          font-family: "Big Shoulders Display", sans-serif;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 30px;
+          color: #1b1b1b;
+          max-width: 744px;
+          margin: 0 0 34px 0;
+          
+          @media (max-width:1024px) {
+            font-size: 12px;
+            line-height: 17px;
+            margin: 0 0 20px 0;
+            max-width: none;
+          }
+        }
+
+        p:last-child {
+          margin: 0;
+        }
       }
     }
   }
-}

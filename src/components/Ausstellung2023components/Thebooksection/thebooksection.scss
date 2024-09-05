@@ -1,6 +1,10 @@
 .thebook-section-main {
   padding: 0 0 100px 0;
 
+  @media (max-width:1024px) {
+    padding: 0 0 57px 0;
+  }
+
   .thebook-section-container {
     max-width: 1164px;
     margin: 0 auto;
@@ -13,6 +17,11 @@
     align-items: start;
     gap: 30px;
 
+    @media (max-width:1024px) {
+      gap: 17px;
+      justify-content: center;
+    }
+
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
       font-size: 148px;
@@ -22,6 +31,12 @@
       text-align: right;
       color: #1b1b1b;
       max-width: 266px;
+
+      @media (max-width:1024px) {
+        font-size: 85px;
+        line-height: 74px;
+        max-width: 154px;
+      }
     }
 
     .hometownheroescoffeewithpaperimage {
@@ -29,6 +44,12 @@
         min-width: 354px;
         min-height: 587px;
         display: block;
+
+        @media (max-width:1024px) {
+          min-width: auto;
+          max-width: 205px;
+          min-height: 339px;
+        }
       }
     }
 
@@ -40,6 +61,13 @@
       margin: 0 0 34px 0;
       color: #1b1b1b;
       max-width: 484px;
+
+      @media (max-width:1024px) {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 0 0 20px 0;
+        max-width: 280px;
+      }
     }
 
     p:last-child {
