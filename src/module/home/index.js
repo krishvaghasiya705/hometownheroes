@@ -9,6 +9,7 @@ export default function Home() {
       <Helmet>
         <title>HOMETOWNHEROES - Home</title>
       </Helmet>
+
       <Herobanner />
     </>
   );

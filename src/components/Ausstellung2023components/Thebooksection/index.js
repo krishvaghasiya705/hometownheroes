@@ -8,7 +8,7 @@ function Thebooksection() {
     <div className="thebook-section-main">
       <div className="thebook-section-container">
         <div className="thebook-section">
-          <div>
+          <div className="the-book-title">
             <h1>THE BOOK</h1>
           </div>
           <div className="hometownheroescoffeewithpaperimage">

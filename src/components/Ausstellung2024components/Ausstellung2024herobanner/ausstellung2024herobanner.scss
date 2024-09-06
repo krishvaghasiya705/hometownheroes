@@ -1,6 +1,10 @@
 .ausstellung-2024-herobanner-main {
   padding: 61px 0 60px 0;
 
+  @media (max-width:1024px) {
+    padding: 58px 0 60px 0;
+  }
+
   .ausstellung-2024-herobanner-container {
     max-width: 1271px;
     margin: 0 auto;
@@ -13,6 +17,12 @@
     align-items: start;
     gap: 43px;
 
+    @media (max-width:1024px) {
+      display: flex;
+      justify-content: space-around;
+      gap: 28px;
+    }
+
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
       font-size: 200px;
@@ -22,15 +32,27 @@
       text-align: center;
       color: #f6f1e5;
       max-width: 393px;
+
+      @media (max-width:1024px) {
+        font-size: 132px;
+        line-height: 118px;
+        max-width: 261px;
+      }
     }
 
     .hometownheroesbannerimage {
       display: flex;
       justify-content: center;
       align-items: start;
+
       img {
         max-width: 299px;
         min-height: 399px;
+
+        @media (max-width:1024px) {
+          max-width: 198px;
+          min-height: 265px;
+        }
       }
     }
 
@@ -43,6 +65,13 @@
       text-align: center;
       color: #f6f1e5;
       max-width: 353px;
+
+      @media (max-width:1024px) {
+        font-size: 10px;
+        line-height: 13px;
+        max-width: 234px;
+        margin: 39px 0 0 0;
+      }
     }
   }
 }

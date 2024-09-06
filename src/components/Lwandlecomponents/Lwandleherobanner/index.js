@@ -1,14 +1,13 @@
 import React from "react";
 import "./Lwandleherobanner.scss";
 import { useLocation } from "react-router-dom";
-import lwandeimage1 from "../../../assets/homtownheroesminipageimages/homtownheroesminipageimages1.png"; // Import the default image
+import lwandeimage1 from "../../../assets/homtownheroesminipageimages/homtownheroesminipageimages1.png";
 
-function Lwandleherobanner({ hideImage = false, showText = false }) {
+function Lwandleherobanner({ hideImage = false, showText = false, title: propTitle }) {
   const location = useLocation();
-
   const queryParams = new URLSearchParams(location.search);
-  const title = queryParams.get("title") || "LWANDLE";
-  const imageSrc = queryParams.get("image") || lwandeimage1; // Use default image if no image URL is provided
+  const title = propTitle || queryParams.get("title") || "LWANDLE";
+  const imageSrc = queryParams.get("image") || lwandeimage1;
 
   return (
     <div className="lwandle-herobanner-main">

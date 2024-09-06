@@ -1,11 +1,10 @@
 .the-ideas-section-main {
-  margin: 0;
 
   @media (max-width:1024px) {
     margin: 0 11% 0 0;
   }
 
-  @media (max-width:576px) {
+  @media (max-width:867px) {
     margin: 0;
   }
 
@@ -31,7 +30,17 @@
       gap: 23px;
     }
 
+    @media (max-width:576px) {
+      display: block;
+    }
+
     .hometownheroeskid1-div {
+
+      @media (max-width:576px) {
+        display: flex;
+        justify-content: end;
+      }
+
       img {
         max-width: 500px;
         min-height: 494px;
@@ -39,6 +48,11 @@
         @media (max-width:1024px) {
           max-width: 289px;
           min-height: 286px;
+        }
+
+        @media (max-width:576px) {
+          max-width: 269px;
+          min-height: 266px;
         }
       }
     }
@@ -51,11 +65,16 @@
         max-width: 202px;
       }
 
+      @media (max-width:576px) {
+        max-width: 291px;
+        margin: -81px 0 0 0;
+      }
+
       h1 {
         font-family: "Big Shoulders Display", sans-serif;
         font-size: 148.09px;
         font-weight: 900;
-        line-height: 128.84px;
+        line-height: 128px;
         letter-spacing: -0.06em;
         color: #1b1b1b;
         max-width: 350px;
@@ -63,8 +82,14 @@
 
         @media (max-width:1924px) {
           font-size: 85px;
-          line-height: 74.62px;
+          line-height: 74px;
           max-width: 125px;
+        }
+
+        @media (max-width:576px) {
+          font-size: 148px;
+          line-height: 128px;
+          max-width: 291px;
         }
       }
     }
@@ -84,6 +109,13 @@
         margin: 15px 0 0 0;
         max-width: 202px;
       }
+
+      @media (max-width:576px) {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        max-width: none;
+      }
     }
   }
 
@@ -92,6 +124,10 @@
 
     @media (max-width:1024px) {
       margin: -106px 0 53px 0;
+    }
+
+    @media (max-width:576px) {
+      margin: 61px 0 40px 0;
     }
 
     .approach-div-main {
@@ -104,6 +140,10 @@
         gap: 30px;
       }
 
+      @media (max-width:576px) {
+        flex-direction: column;
+      }
+
       .approach-title {
         display: flex;
         justify-content: space-between;
@@ -114,6 +154,13 @@
         @media (max-width:1024px) {
           gap: 23px;
           margin: 0 0 22px 0;
+        }
+
+        @media (max-width:576px) {
+          gap: 0;
+          margin: 0 0 40px 0;
+          flex-direction: column;
+          align-items: center;
         }
 
         h1 {
@@ -131,6 +178,15 @@
             line-height: 74px;
             max-width: 126px;
           }
+
+          @media (max-width:576px) {
+            font-size: 148px;
+            line-height: 128px;
+            text-align: center;
+            max-width: 291px;
+            position: relative;
+            margin: 0 0 -95px 0;
+          }
         }
 
         .hometownheroeskid2-image {
@@ -142,6 +198,12 @@
               min-width: 206px;
               max-width: 206px;
               min-height: 295px;
+            }
+
+            @media (max-width:576px) {
+              min-width: auto;
+              max-width: none;
+              min-height: 551px;
             }
           }
         }
@@ -170,6 +232,12 @@
             min-width: 294px;
             max-width: 294px;
             min-height: 164px;
+          }
+
+          @media (max-width:1024px) {
+            min-width: auto;
+            max-width: none;
+            min-height: 199px;
           }
         }
       }

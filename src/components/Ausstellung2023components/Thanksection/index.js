@@ -1,5 +1,5 @@
 import React from "react";
-import "./thamnksection.scss";
+import "./thanksection.scss";
 
 import Footerimage1 from "../../../assets/footer/footerimage1.png";
 import Footerimage2 from "../../../assets/footer/footerimage2.png";
@@ -45,21 +45,20 @@ function Thanksection() {
             <h1>THANK YOU</h1>
             <img src={Footerimage2} alt="Footerimage2" />
           </div>
-          <p>
-            We extend our heartfelt gratitude for taking the time to explore the
-            story, mission, and future of Hometown Heroes. 
-            <br />
-            <br />
-            Your commitment to understanding our vision is deeply appreciated.
-            We believe that positive change begins with awareness, and your
-            engagement is a vital step in that direction. Together, we can
-            amplify our message of equality, humanity, and compassion, and
-            inspire the world to make a difference. 
-            <br />
-            <br />
-            We look forward to the possibility of joining forces with you to
-            create a brighter, more equitable future for all.
-          </p>
+
+          <div>
+            <p>We extend our heartfelt gratitude for taking the time to explore the
+              story, mission, and future of Hometown Heroes. </p>
+            <p>
+              Your commitment to understanding our vision is deeply appreciated.
+              We believe that positive change begins with awareness, and your
+              engagement is a vital step in that direction. Together, we can
+              amplify our message of equality, humanity, and compassion, and
+              inspire the world to make a difference.
+            </p>
+            <p>We look forward to the possibility of joining forces with you to
+              create a brighter, more equitable future for all.</p>
+          </div>
         </div>
       </div>
     </div>

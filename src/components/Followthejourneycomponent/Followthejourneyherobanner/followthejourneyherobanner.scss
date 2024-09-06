@@ -1,5 +1,6 @@
 .follow-the-journey-herobanner-main {
   margin: 38px 0 24px 0;
+
   .follow-the-journey-herobanner-container {
     max-width: 1235px;
     margin: 0 auto;
@@ -12,6 +13,11 @@
     align-items: center;
     position: relative;
     padding: 139px 0 0 0;
+
+    @media (max-width:1024px) {
+      padding: 108px 0 0 0;
+      justify-content: space-around;
+    }
 
     .folow-the-journey-title {
       position: absolute;
@@ -30,6 +36,12 @@
         text-align: center;
         color: #1b1b1b;
         max-width: 617px;
+
+        @media (max-width:1024px) {
+          font-size: 92px;
+          line-height: 80px;
+          max-width: 393px;
+        }
       }
     }
 
@@ -40,9 +52,16 @@
         font-weight: 900;
         line-height: 175px;
         letter-spacing: -0.06em;
-
         margin: 0 0 20px 0;
         color: #1b1b1b;
+        max-width: 409px;
+
+        @media (max-width:1024px) {
+          max-width: 236px;
+          font-size: 115px;
+          line-height: 100px;
+          margin: 0 0 15px 0;
+        }
       }
 
       p {
@@ -50,9 +69,14 @@
         font-size: 20px;
         font-weight: 700;
         line-height: 30px;
-
         color: #1b1b1b;
         max-width: 409px;
+
+        @media (max-width:1024px) {
+          font-size: 12px;
+          line-height: 17px;
+          max-width: 236px;
+        }
       }
     }
 
@@ -64,17 +88,36 @@
       .magazine-image-one {
         img {
           min-width: 320px;
+          max-width: none;
           min-height: 428px;
+
+          @media (max-width:1024px) {
+            min-width: auto;
+            max-width: 229px;
+            min-height: 306px;
+          }
         }
       }
+
       .magazine-image-two {
         position: absolute;
         bottom: 0;
         left: -180px;
         z-index: 1;
+
+        @media (max-width:1024px) {
+          bottom: 16px;
+          left: -112px;
+        }
+
         img {
           max-width: 324px;
           min-height: 442px;
+
+          @media (max-width:1024px) {
+            max-width: 232px;
+            min-height: 316px;
+          }
         }
       }
     }

@@ -9,7 +9,7 @@ function Thevision() {
       <div className="container-main">
         <div className="the-vision-section">
           <div className="the-vision-content-aliognment">
-            <div>
+            <div className="the-vision-title">
               <img src={Hometownheroesmen1} alt="Hometownheroesmen1" />
               <h1>THE VISION</h1>
             </div>

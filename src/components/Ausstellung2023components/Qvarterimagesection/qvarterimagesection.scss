@@ -5,6 +5,10 @@
     padding: 57px 0;
   }
 
+  @media (max-width:576px) {
+    padding: 67px 0 84px 0;
+  }
+
   .qvarter-image-section-container {
     max-width: 1087px;
     margin: 0 auto;
@@ -21,6 +25,12 @@
       justify-content: center;
     }
 
+    @media (max-width:576px) {
+      gap: 16px;
+      flex-direction: column;
+      justify-content: center;
+    }
+
     img {
       min-width: 436px;
       min-height: 625px;
@@ -29,6 +39,12 @@
         min-width: auto;
         max-width: 252px;
         min-height: 362px;
+      }
+
+      @media (max-width:576px) {
+        min-width: auto;
+        max-width: none;
+        min-height: 511px;
       }
     }
 
@@ -42,6 +58,10 @@
 
         @media (max-width:1024px) {
           gap: 11px;
+        }
+
+        @media (max-width:576px) {
+          gap: 16px;
         }
 
         img {
@@ -61,6 +81,11 @@
               min-height: auto;
               max-height: 176px;
             }
+
+            @media (max-width:576px) {
+              min-height: auto;
+              max-height: 172px;
+            }
           }
         }
 
@@ -72,6 +97,11 @@
             @media (max-width:1024px) {
               min-height: auto;
               max-height: 175px;
+            }
+
+            @media (max-width:576px) {
+              min-height: auto;
+              max-height: 171px;
             }
           }
         }

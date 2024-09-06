@@ -20,7 +20,7 @@ function Theappearlsection() {
                 quality. They are not just ordinary clothes; wearing them
                 supports the message of Hometown Heroes: "Equal as Humans,
                 Despite Differences." Each collection will be limited in
-                quantity to create a sense of rarity and collectibility. 
+                quantity to create a sense of rarity and collectibility.
               </p>
               <p>
                 Furthermore, the designs for each edition will be individually
@@ -36,7 +36,9 @@ function Theappearlsection() {
 
         <div className="collaborations-flx-main">
           <div className="collaborations-flx-items1 collaborations-flx-items1-sc">
-            <h2>COLLABORATIONS</h2>
+            <div className="collab-title">
+              <h2>COLLABORATIONS</h2>
+            </div>
             <div className="collaborations-image-div">
               <img src={Collaborationsimage1} alt="Collaborationsimage1" />
               <p>HOMETOWN HEROES X YOUNG BAFANA</p>
@@ -56,7 +58,9 @@ function Theappearlsection() {
             </p>
           </div>
           <div className="collaborations-flx-items1 collaborations-flx-items1-th">
-            <h2>COLLABORATIONS</h2>
+            <div className="collab-title">
+              <h2>COLLABORATIONS</h2>
+            </div>
             <div className="collaborations-image-div collaborations-image-div-sc">
               <img src={Collaborationsimage2} alt="Collaborationsimage2" />
               <p>HOMETOWN HEROES X CANON</p>
@@ -66,7 +70,7 @@ function Theappearlsection() {
               provider, collaborated with us by sponsoring our debut exhibition.
               Their support extended to sponsoring the printing of the 34 images
               featured in the exhibition, showcasing their commitment to our
-              vision and the power of storytelling through photography. 
+              vision and the power of storytelling through photography.
             </p>
             <p>
               These collaborations have allowed us to expand our reach and

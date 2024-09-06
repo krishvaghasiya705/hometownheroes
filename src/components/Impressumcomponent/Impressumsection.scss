@@ -1,5 +1,11 @@
 .impressum-section-main {
   margin: 67px 0 230px 0;
+  height: auto;
+
+  @media (max-width:1024px) {
+    margin: 25px 0 0 0;
+    height: calc(100vh - 62px - 25px - 183px);
+  }
 
   .impressum-section {
     display: flex;
@@ -12,7 +18,6 @@
       font-weight: 900;
       line-height: 71px;
       letter-spacing: -0.06em;
-
       color: #1b1b1b;
       margin: 0 0 30px 0;
     }

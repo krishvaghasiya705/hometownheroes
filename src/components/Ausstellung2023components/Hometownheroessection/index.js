@@ -13,7 +13,9 @@ function Hometownheroessection() {
           <img src={hometownheroeskid4} alt="hometownheroeskid4" />
           <div>
             <span>“EQUAL AS HUMANS - DESPITE DIFFERENCES“</span>
-            <h1>THE FUTURE</h1>
+            <div className="future-title">
+              <h1>THE FUTURE</h1>
+            </div>
           </div>
         </div>
 

@@ -1,6 +1,10 @@
 .tom-von-section-main {
   margin: 0 0 61px 0;
 
+  @media (max-width:1024px) {
+    margin: 0 0 60px 0;
+  }
+
   .tom-von-section {
 
     h4 {
@@ -13,6 +17,11 @@
       color: #f6f1e5;
       width: fit-content;
       margin: 0 0 22px 8.5%;
+
+      @media (max-width:1024px) {
+        font-size: 33px;
+        line-height: 43px;
+      }
     }
 
     h1 {
@@ -23,6 +32,12 @@
       letter-spacing: -0.04em;
       color: #f6f1e5;
       margin: 0 0 16px -21px;
+
+      @media (max-width:1024px) {
+        font-size: 150px;
+        line-height: 113px;
+        margin: 0 0 12px -97px;
+      }
     }
 
     h3 {
@@ -33,6 +48,13 @@
       letter-spacing: -0.04em;
       text-align: right;
       color: #f6f1e5;
+      margin: 0 -721px 0 0;
+      
+      @media (max-width:1024px) {
+        font-size: 33px;
+        line-height: 43px;
+        margin: 0 -557px 0 0;
+      }
     }
   }
 }
