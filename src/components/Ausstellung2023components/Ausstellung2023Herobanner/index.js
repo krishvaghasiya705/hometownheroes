@@ -8,7 +8,7 @@ function Ausstellung2023Herobanner() {
     <div className="ausstellung2023-main">
       <div className="container-main">
         <div className="ausstellung2023-content-alignment">
-          <div>
+          <div className="intro-title">
             <h1>INTRO</h1>
             <p>
               “Welcome to this comprehensive document that encapsulates the

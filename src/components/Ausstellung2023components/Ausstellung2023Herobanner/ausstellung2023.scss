@@ -29,6 +29,13 @@
       align-items: center;
     }
 
+    .intro-title {
+
+      @media (max-width:576px) {
+        text-align: center;
+      }
+    }
+
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
       font-size: 200px;
