@@ -4,6 +4,7 @@
   @media (max-width:1024px) {
     margin: 17px 0 70px 0;
   }
+
   @media (max-width:576px) {
     margin: 17px 0 49px 0;
   }
@@ -48,6 +49,7 @@
         position: relative;
         z-index: 2;
         margin: 0 0 15px 0;
+        word-break: keep-all;
       }
     }
 
@@ -84,6 +86,7 @@
         @media (max-width:576px) {
           position: relative !important;
           z-index: 0 !important;
+          word-break: keep-all;
         }
       }
     }

@@ -18,10 +18,10 @@
     }
 
     .the-gallary-title {
+      position: relative;
 
       @media (max-width:576px) {
         height: 86px;
-        position: relative;
         overflow: hidden;
       }
 
