@@ -31,6 +31,23 @@
       margin: 0 0 43px 0;
     }
 
+    .hometownheroes-title-main {
+      @media (max-width:576px) {
+        position: relative;
+        height: 435px;
+        overflow: hidden;
+      }
+
+      h1 {
+
+        @media (max-width:576px) {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+
     .hometown-herobanner-center-content {
       margin: 0;
 

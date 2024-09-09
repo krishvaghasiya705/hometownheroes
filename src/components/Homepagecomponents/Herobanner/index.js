@@ -9,7 +9,7 @@ function Herobanner() {
     <div className="herobanner-main">
       <div className="container-main">
         <div className="herobanner-hometown-div">
-          <div>
+          <div className="hometownheroes-title-main">
             <h1>HOME TOWN HEROES</h1>
           </div>
 
