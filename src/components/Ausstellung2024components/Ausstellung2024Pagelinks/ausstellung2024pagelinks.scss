@@ -19,6 +19,11 @@
       letter-spacing: -0.04em;
       text-align: center;
       color: #f6f1e5;
+
+      @media (max-width:576px) {
+        font-size: 26px;
+        line-height: 55px;
+      }
     }
   }
 }

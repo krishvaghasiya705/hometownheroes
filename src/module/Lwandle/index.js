@@ -7,6 +7,9 @@ import Clocksection from "../../components/Homepagecomponents/clocksection";
 import { Helmet } from "react-helmet";
 
 function Lwandle() {
+
+  const Lwandleperagraph = `Jetzt Gebot abgeben und das Projekt unterstützen. Gib einfach deine Kontaktdaten in das Eingabefeld und dein Gebot für das Bild ab.`
+
   return (
     <>
 
@@ -15,7 +18,12 @@ function Lwandle() {
       </Helmet>
 
 
-      <Lwandleherobanner hideImage={false} showText={false} />
+      <Lwandleherobanner hideImage={false}
+        showText={false}
+        paragraph={Lwandleperagraph}
+        showBidButton={true}
+        showMessageButton={false}
+      />
       <Tomvon />
       <div className="lwandle-clock-section">
         <Clocksection

@@ -7,8 +7,15 @@ function Datenschutzsection() {
       <div className="datenschutz-section-container">
         <div className="datenschutz-section">
           <h1>DATENSCHUTZ</h1>
-          <h2>HOMETOWN HEROES</h2>
-          <p>Vertreten durch: Tom von Below</p>
+          <div className="hometown-title-web">
+            <h2>HOMETOWN HEROES</h2>
+            <p>Vertreten durch: Tom von Below</p>
+          </div>
+          <div className="hometown-title-mobile">
+            <h2>HOMETOWN HEROES</h2>
+            <p>Vertreten durch:</p>
+            <p> Tom von Below</p>
+          </div>
           <h2>Verarbeitung personenbezogener Daten</h2>
           <p>
             Wir verarbeiten personenbezogene Daten (nachfolgend „Daten“ genannt)
@@ -36,8 +43,24 @@ function Datenschutzsection() {
             Gliederung: Informationen über uns als Verantwortliche Rechte der
             Nutzer und Betroffenen Informationen zur Datenverarbeitung
           </h2>
+          <div className="datenschutz-data-2-mobile">
+            <h2>
+              Gliederung:
+            </h2>
+            <div className="info-h2">
+              <h2>1. Informationen</h2>
+              <h2>über  uns</h2>
+              <h2>als Verantwortliche</h2>
+            </div>
+            <div>
+              <h2>2. Rechte der Nutzer und</h2>
+              <h2>Betroffenen</h2>
+            </div>
+            <h2>3. Informationen zur
+              Datenverarbeitung</h2>
+          </div>
           <p>
-            Informationen über uns als Verantwortliche Verantwortlicher Anbieter
+            1. Informationen über uns als Verantwortliche Verantwortlicher Anbieter
             im Sinne des Datenschutzrechts:
           </p>
           <p>Tom von Below</p>

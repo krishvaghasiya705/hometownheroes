@@ -1,0 +1,70 @@
+.lwandle-donate-compo {
+    .gebot-div-main {
+
+        h3 {
+
+            @media (max-width:576px) {
+                display: none;
+            }
+        }
+
+        .input-div-main-alignment {
+
+            @media (max-width:576px) {
+                display: none !important;
+            }
+        }
+
+        .redio-input-main {
+
+            @media (max-width:576px) {
+                margin: 0 0 30px 0 !important;
+            }
+        }
+    }
+}
+
+.clocksection-donate {
+
+    @media (max-width:576px) {
+        display: none;
+    }
+}
+
+.sponser-and-partner-div {
+    margin: 90px 0 0 0;
+
+    @media (max-width:1024px) {
+        margin: 40px 0 0 0;
+    }
+
+    @media (max-width:1024px) {
+        margin: 0 0 0 0;
+    }
+
+    h1 {
+        font-family: "Big Shoulders Inline Text", sans-serif;
+        font-size: 39px;
+        font-weight: 900;
+        line-height: 34px;
+        text-align: center;
+        color: #F6F1E5;
+        margin: 0 0 30px 0;
+
+        @media (max-width:1024px) {
+            margin: 0 0 35px 0;
+            font-size: 25px;
+        }
+    }
+
+    .sponser-logo-div-main {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 30px;
+
+        @media (max-width:1024px) {
+            gap: 20px;
+        }
+    }
+}

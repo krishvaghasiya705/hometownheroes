@@ -24,18 +24,20 @@ function Followthejourneyherobanner() {
               impactful collaborations.“
             </p>
           </div>
-          <div className="follow-the-journey-herobanner-items2">
-            <div className="magazine-image-one">
-              <img
-                src={Hometownheroesbannerimage}
-                alt="Hometownheroesbannerimage"
-              />
-            </div>
-            <div className="magazine-image-two">
-              <img
-                src={Hometownheroesbannerimage2}
-                alt="Hometownheroesbannerimage2"
-              />
+          <div className="follow-the-journey-herobanner-items2-main">
+            <div className="follow-the-journey-herobanner-items2">
+              <div className="magazine-image-one">
+                <img
+                  src={Hometownheroesbannerimage}
+                  alt="Hometownheroesbannerimage"
+                />
+              </div>
+              <div className="magazine-image-two">
+                <img
+                  src={Hometownheroesbannerimage2}
+                  alt="Hometownheroesbannerimage2"
+                />
+              </div>
             </div>
           </div>
         </div>

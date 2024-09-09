@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import "./header.scss";
 import Hometowheroesicon from "../../assets/svg/Hometowheroesicon";
@@ -36,6 +36,10 @@ function Header() {
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
+
+  useEffect(() => {
+    setIsSidebarOpen(false);
+  }, [location]);
 
   return (
     <header style={{ backgroundColor: headerColor }}>

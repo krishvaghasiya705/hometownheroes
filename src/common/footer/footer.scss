@@ -147,9 +147,12 @@ footer {
           line-height: 10px;
           min-width: 55px;
         }
-
+        
         @media (max-width:576px) {
           text-align: left;
+          font-size: 16px;
+          line-height: 18px;
+          min-width: 96px;
         }
       }
     }

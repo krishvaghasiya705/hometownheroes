@@ -5,6 +5,10 @@
     padding: 58px 0 60px 0;
   }
 
+  @media (max-width:576px) {
+    padding: 17px 0 50px 0;
+  }
+
   .ausstellung-2024-herobanner-container {
     max-width: 1271px;
     margin: 0 auto;
@@ -23,6 +27,13 @@
       gap: 28px;
     }
 
+    @media (max-width:576px) {
+      flex-direction: column;
+      gap: 60px;
+      position: relative;
+      align-items: center;
+    }
+
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
       font-size: 200px;
@@ -38,12 +49,39 @@
         line-height: 118px;
         max-width: 261px;
       }
+
+      @media (max-width:576px) {
+        font-size: 200px;
+        line-height: 171px;
+        position: relative !important;
+        z-index: 2;
+        word-break: keep-all;
+        max-width: none;
+      }
+    }
+
+    .year-title {
+
+      h1 {
+
+        @media (max-width:576px) {
+          z-index: 0 !important;
+        }
+      }
     }
 
     .hometownheroesbannerimage {
       display: flex;
       justify-content: center;
       align-items: start;
+
+      @media (max-width:576PX) {
+        position: absolute;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
 
       img {
         max-width: 299px;
@@ -52,6 +90,12 @@
         @media (max-width:1024px) {
           max-width: 198px;
           min-height: 265px;
+        }
+
+
+        @media (max-width:576px) {
+          max-width: 161px;
+          min-height: 215px;
         }
       }
     }
@@ -71,6 +115,13 @@
         line-height: 13px;
         max-width: 234px;
         margin: 39px 0 0 0;
+      }
+
+      @media (max-width:576px) {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: none;
+        margin: 10px 0 0 0;
       }
     }
   }

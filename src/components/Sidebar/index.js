@@ -16,14 +16,23 @@ function Sidebar({ isOpen, toggleSidebar }) {
         setShowContent(true);
       }, 600);
       document.body.style.overflow = "hidden";
+
+      const handleEscapeKey = (event) => {
+        if (event.key === "Escape") {
+          setIsClosing(true);
+        }
+      };
+      window.addEventListener("keydown", handleEscapeKey);
+
       return () => {
         clearTimeout(timer);
-        document.body.style.overflow = ""; // Reset overflow when component unmounts or isOpen changes
+        document.body.style.overflow = "";
+        window.removeEventListener("keydown", handleEscapeKey);
       };
     } else {
       setShowContent(false);
       setIsClosing(false);
-      document.body.style.overflow = ""; // Reset overflow when sidebar closes
+      document.body.style.overflow = "";
     }
   }, [isOpen]);
 
@@ -53,6 +62,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
               <Closeicon onClick={handleClose} />
             </div>
             <div className="sidebar-content-main">
+              <span></span>
               <div className="sidebar-link-col-one">
                 <NavLink to="/ausstellung2023" onClick={handleClose}>
                   AUSSTELLUNG <p>2023</p>

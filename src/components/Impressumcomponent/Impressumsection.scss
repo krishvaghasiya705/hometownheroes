@@ -7,19 +7,55 @@
     height: calc(100vh - 62px - 25px - 183px);
   }
 
+  @media (max-width:576px) {
+    margin: 17px 0 49px 0;
+    height: auto;
+  }
+
   .impressum-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
-    h1 {
-      font-family: "Big Shoulders Display", sans-serif;
-      font-size: 76px;
-      font-weight: 900;
-      line-height: 71px;
-      letter-spacing: -0.06em;
-      color: #1b1b1b;
-      margin: 0 0 30px 0;
+    @media (max-width:576px) {
+      flex-direction: column-reverse;
+    }
+
+    .impressum-title-web {
+
+      h1 {
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 76px;
+        font-weight: 900;
+        line-height: 71px;
+        letter-spacing: -0.06em;
+        color: #1b1b1b;
+        margin: 0 0 30px 0;
+      }
+
+      @media (max-width:576px) {
+        display: none;
+      }
+    }
+
+    .impressum-title-mobile {
+      display: none;
+
+      @media (max-width:576px) {
+        display: block;
+      }
+
+      h1 {
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 76px;
+        font-weight: 900;
+        line-height: 71px;
+        letter-spacing: -0.06em;
+        text-align: center;
+        color: #1b1b1b;
+        margin: 0 0 52px 0;
+      }
     }
 
     p {
@@ -28,10 +64,15 @@
       font-weight: 300;
       line-height: 30px;
       letter-spacing: -0.06em;
-
       color: #1b1b1b;
       max-width: 929px;
       margin: 0 0 30px 0;
+
+      @media (max-width:576px) {
+        font-size: 35px;
+        line-height: 44px;
+        text-align: center;
+      }
     }
 
     .contact-details-impressum {
@@ -40,14 +81,36 @@
       align-items: start;
       gap: 60px;
 
+      @media (max-width:576px) {
+        flex-direction: column;
+        gap: 30px;
+        margin: 0 0 30px 0;
+        align-items: center;
+      }
+
       p {
         font-family: "Big Shoulders Display", sans-serif;
         font-size: 20px;
         font-weight: 300;
         line-height: 34.71px;
         letter-spacing: -0.06em;
-
         color: #1b1b1b;
+        margin: 0;
+
+        @media (max-width:576px) {
+          font-size: 35px;
+          line-height: 44px;
+          text-align: center;
+        }
+      }
+
+      h2 {
+
+        a {
+          @media (max-width:576px) {
+            margin: 0 0 30px 0;
+          }
+        }
       }
 
       h2 {
@@ -56,8 +119,13 @@
         font-weight: 900;
         line-height: 34.71px;
         letter-spacing: -0.06em;
-
         color: #1b1b1b;
+
+        @media (max-width:576px) {
+          font-size: 35px;
+          line-height: 44px;
+          text-align: center;
+        }
 
         a {
           font-family: "Big Shoulders Display", sans-serif;
@@ -65,8 +133,23 @@
           font-weight: 900;
           line-height: 34.71px;
           letter-spacing: -0.06em;
-
           color: #1b1b1b;
+
+          @media (max-width:576px) {
+            font-size: 35px;
+            line-height: 44px;
+            text-align: center;
+          }
+        }
+      }
+
+      .link-div {
+
+        @media (max-width:576px) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
         }
       }
 
@@ -78,9 +161,14 @@
         font-weight: 300;
         line-height: 34.71px;
         letter-spacing: -0.06em;
-
         color: #1b1b1b;
         text-decoration-line: none;
+
+        @media (max-width:576px) {
+          font-size: 35px;
+          line-height: 44px;
+          text-align: center;
+        }
       }
     }
   }

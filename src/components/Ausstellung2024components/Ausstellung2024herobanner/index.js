@@ -8,7 +8,7 @@ function Ausstellung2024herobanner() {
     <div className="ausstellung-2024-herobanner-main">
       <div className="ausstellung-2024-herobanner-container">
         <div className="ausstellung-2024-herobanner">
-          <div>
+          <div className="year-title">
             <h1>2024</h1>
           </div>
           <div className="hometownheroesbannerimage">

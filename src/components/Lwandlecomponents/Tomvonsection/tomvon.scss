@@ -5,6 +5,10 @@
     margin: 0 0 60px 0;
   }
 
+  @media (max-width:1024px) {
+    margin: 0 0 24px 0;
+  }
+
   .tom-von-section {
 
     h4 {
@@ -22,38 +26,92 @@
         font-size: 33px;
         line-height: 43px;
       }
-    }
 
-    h1 {
-      font-family: "Big Shoulders Inline Text", sans-serif;
-      font-size: 207.4px;
-      font-weight: 900;
-      line-height: 165.26px;
-      letter-spacing: -0.04em;
-      color: #f6f1e5;
-      margin: 0 0 16px -21px;
-
-      @media (max-width:1024px) {
-        font-size: 150px;
-        line-height: 113px;
-        margin: 0 0 12px -97px;
+      @media (max-width:576px) {
+        font-size: 16px;
+        line-height: 21px;
+        margin: 0 0 8px 6%;
       }
     }
 
-    h3 {
-      font-family: "Big Shoulders Display", sans-serif;
-      font-size: 45.46px;
-      font-weight: 900;
-      line-height: 59.66px;
-      letter-spacing: -0.04em;
-      text-align: right;
-      color: #f6f1e5;
-      margin: 0 -721px 0 0;
-      
+    .tom-von-title {
+      position: relative;
+      height: 165px;
+      margin: 0 0 16px 0;
+      overflow: hidden;
+
       @media (max-width:1024px) {
-        font-size: 33px;
-        line-height: 43px;
-        margin: 0 -557px 0 0;
+        height: 113px;
+        margin: 0 0 12px 0;
+      }
+
+      @media (max-width:576px) {
+        height: 65px;
+        margin: 0 0 6px 0;
+      }
+
+      h1 {
+        position: absolute;
+        top: 0;
+        left: -21px;
+        font-family: "Big Shoulders Inline Text", sans-serif;
+        font-size: 207.4px;
+        font-weight: 900;
+        line-height: 165px;
+        letter-spacing: -0.04em;
+        color: #f6f1e5;
+        width: max-content;
+
+        @media (max-width:1024px) {
+          font-size: 150px;
+          line-height: 113px;
+          left: 0;
+        }
+
+        @media (max-width:576px) {
+          font-size: 73px;
+          line-height: 65px;
+        }
+      }
+    }
+
+    .tom-von-subtitle {
+      position: relative;
+      height: 59px;
+      overflow: hidden;
+
+      @media (max-width:1024px) {
+        height: 43px;
+      }
+
+      @media (max-width:576px) {
+        height: 21px;
+      }
+
+      h3 {
+        position: absolute;
+        top: 0;
+        right: -721px;
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 45px;
+        font-weight: 900;
+        line-height: 59px;
+        letter-spacing: -0.04em;
+        text-align: right;
+        color: #f6f1e5;
+        width: max-content;
+
+        @media (max-width:1024px) {
+          font-size: 33px;
+          line-height: 43px;
+          right: -557px;
+        }
+
+        @media (max-width:576px) {
+          font-size: 16px;
+          line-height: 21px;
+          right: -200px;
+        }
       }
     }
   }
