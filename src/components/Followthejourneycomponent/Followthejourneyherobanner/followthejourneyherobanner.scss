@@ -131,7 +131,11 @@
     }
 
     .follow-the-journey-herobanner-items2-main-sc {
-      display: block !important;
+      display: none;
+
+      @media (max-width:576px) {
+        display: block !important;
+      }
     }
 
     .follow-the-journey-herobanner-items2-main {

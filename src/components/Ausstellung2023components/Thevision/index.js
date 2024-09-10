@@ -13,7 +13,7 @@ function Thevision() {
               <img src={Hometownheroesmen1} alt="Hometownheroesmen1" />
               <h1>THE VISION</h1>
             </div>
-            <div>
+            <div className="the-vision-content">
               <p>
                 We believe in the power of collective action. Consequently, we
                 want to work closely with established local organizations to

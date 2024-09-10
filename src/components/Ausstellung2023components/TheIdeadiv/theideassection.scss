@@ -58,10 +58,10 @@
     }
 
     .the-idea-title {
+      width: 100%;
       max-width: 350px;
 
       @media (max-width:1024px) {
-        width: 100%;
         max-width: 202px;
       }
 
