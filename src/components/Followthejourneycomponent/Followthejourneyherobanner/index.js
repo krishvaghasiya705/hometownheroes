@@ -13,7 +13,25 @@ function Followthejourneyherobanner() {
             <h1>FOLLOW THE JOURNEY</h1>
           </div>
           <div className="follow-the-journey-herobanner-items1">
-            <h1>INTRO</h1>
+          <div className="follow-the-journey-herobanner-items2-main follow-the-journey-herobanner-items2-main-sc">
+            <div className="follow-the-journey-herobanner-items2">
+              <div className="magazine-image-one">
+                <img
+                  src={Hometownheroesbannerimage}
+                  alt="Hometownheroesbannerimage"
+                />
+              </div>
+              <div className="magazine-image-two">
+                <img
+                  src={Hometownheroesbannerimage2}
+                  alt="Hometownheroesbannerimage2"
+                />
+              </div>
+            </div>
+          </div>
+            <div className="follow-the-journey-intro-title">
+              <h1>INTRO</h1>
+            </div>
             <p>
               “Welcome to this comprehensive document that encapsulates the
               essence and journey of HOMETOWN HEROES. Within this page, you will

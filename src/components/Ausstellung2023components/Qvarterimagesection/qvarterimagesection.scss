@@ -70,6 +70,10 @@
           @media (max-width:1024px) {
             min-width: 365px;
           }
+
+          @media (max-width:576px) {
+            min-width: auto;
+          }
         }
 
         .qvarter-image-side2-alignment1 {

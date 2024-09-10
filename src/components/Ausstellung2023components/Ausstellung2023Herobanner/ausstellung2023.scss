@@ -9,6 +9,13 @@
     margin: 17px 0 49px 0;
   }
 
+  .container-main{
+
+    @media (max-width:576px) {
+      padding: 0;
+    }
+  }
+
   .ausstellung2023-content-alignment {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -101,6 +108,7 @@
         max-width: none;
         position: relative;
         z-index: 2;
+        padding: 0 20px;
       }
     }
 

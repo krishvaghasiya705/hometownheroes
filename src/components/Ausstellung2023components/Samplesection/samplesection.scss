@@ -4,6 +4,7 @@
   @media (max-width:1024px) {
     padding: 0 0 57px 0;
   }
+
   @media (max-width:576px) {
     padding: 0 0 30px 0;
   }
@@ -57,9 +58,8 @@
       @media (max-width:576px) {
         margin: 30px 0 0 0;
         gap: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
       }
 
       img {
@@ -74,9 +74,9 @@
         }
 
         @media (max-width:576px) {
-          min-width: auto;
-          max-width: 131px;
-          min-height: 130px;
+          max-width: none;
+          min-height: auto;
+          max-height: 130px;
         }
       }
     }
