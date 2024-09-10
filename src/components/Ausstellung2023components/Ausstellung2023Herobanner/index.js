@@ -9,7 +9,9 @@ function Ausstellung2023Herobanner() {
       <div className="container-main">
         <div className="ausstellung2023-content-alignment">
           <div className="intro-title">
-            <h1>INTRO</h1>
+            <div className="intro-title-div">
+              <h1>INTRO</h1>
+            </div>
             <p>
               “Welcome to this comprehensive document that encapsulates the
               essence and journey of HOMETOWN HEROES. Within this page, you will

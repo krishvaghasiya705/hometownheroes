@@ -13,6 +13,10 @@
     max-width: 1271px;
     margin: 0 auto;
     padding: 0 20px;
+
+    @media (max-width:576px) {
+      padding: 0;
+    }
   }
 
   .ausstellung-2024-herobanner {
@@ -62,10 +66,41 @@
 
     .year-title {
 
+      @media (max-width:576px) {
+        height: 171px;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+      }
+
       h1 {
 
         @media (max-width:576px) {
           z-index: 0 !important;
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    }
+
+    .intro-div-2024 {
+
+      @media (max-width:576px) {
+        height: 171px;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      h1 {
+
+        @media (max-width:576px) {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
         }
       }
     }
@@ -121,7 +156,7 @@
         font-size: 14px;
         line-height: 20px;
         max-width: none;
-        margin: 10px 0 0 0;
+        margin: 10px 20px 0 20px;
       }
     }
   }

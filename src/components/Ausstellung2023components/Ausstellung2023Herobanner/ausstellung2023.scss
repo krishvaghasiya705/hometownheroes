@@ -36,6 +36,26 @@
       }
     }
 
+    .intro-title-div {
+      @media (max-width:576px) {
+        position: relative;
+        height: 166px;
+        overflow: hidden;
+      }
+
+      h1 {
+
+        @media (max-width:576px) {
+          position: absolute;
+          z-index: 2;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+      }
+    }
+
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
       font-size: 200px;
@@ -86,12 +106,22 @@
 
     .date-alignment {
 
+      @media (max-width:576px) {
+        position: relative;
+        height: 166px;
+        overflow: hidden;
+        width: 100%;
+      }
+
       h1 {
         text-align: center;
         margin: 0 !important;
 
         @media (max-width:576px) {
-          position: relative !important;
+          position: absolute !important;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
           z-index: 0 !important;
           word-break: keep-all;
         }

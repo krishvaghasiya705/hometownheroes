@@ -18,7 +18,9 @@ function Ausstellung2024herobanner() {
             />
           </div>
           <div>
-            <h1>INTRO</h1>
+            <div className="intro-div-2024">
+              <h1>INTRO</h1>
+            </div>
             <p>
               “Welcome to this comprehensive document that encapsulates the
               essence and journey of HOMETOWN HEROES. Within these pages, you
