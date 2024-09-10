@@ -5,10 +5,10 @@
   /* font-family: "Big Shoulders Inline Text", sans-serif; */
 }
 
-// *:not(.simulator) {
-//   cursor: url(chrome-extension://ckejmhbmlajgoklhgbapkiccekfoccmk/assets/pictos/cursor.png) 17 17, pointer !important;
-//   scrollbar-width: none;
-// }
+*:not(.simulator) {
+  cursor: url(chrome-extension://ckejmhbmlajgoklhgbapkiccekfoccmk/assets/pictos/cursor.png) 17 17, pointer !important;
+  scrollbar-width: none;
+}
 
 h1,
 h2,
