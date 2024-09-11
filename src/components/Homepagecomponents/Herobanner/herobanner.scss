@@ -2,7 +2,7 @@
   padding: 67px 0 0 0;
 
   @media (max-width: 1024px) {
-    padding: 68px 0 267px 0;
+    padding: 68px 0;
   }
 
   @media (max-width: 576px) {
@@ -16,12 +16,14 @@
   }
 
   .herobanner-hometown-div {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
     align-items: end;
     margin: 0 0 69px 0;
 
     @media (max-width: 1024px) {
+      display: flex;
       justify-content: center;
       gap: 63px;
     }
@@ -49,7 +51,7 @@
     }
 
     .hometown-herobanner-center-content {
-      margin: 0;
+      margin: 0 auto;
 
       @media (max-width: 576px) {
         display: flex;
@@ -116,7 +118,7 @@
 
     img {
       display: block;
-      min-width: 320px;
+      max-width: 320px;
       min-height: 428px;
 
       @media (max-width: 1024px) {

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import "./header.scss";
 import Hometowheroesicon from "../../assets/svg/Hometowheroesicon";
@@ -8,6 +8,8 @@ import Sidebar from "../../components/Sidebar";
 function Header() {
   const location = useLocation();
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isScrollingDown, setIsScrollingDown] = useState(false);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   let headerColor, svgPathColor, navLinkColor;
 
@@ -37,15 +39,37 @@ function Header() {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
+  const handleScroll = useCallback(() => {
+    if (window.scrollY > lastScrollY) {
+      setIsScrollingDown(true);
+    } else {
+      setIsScrollingDown(false);
+    }
+    setLastScrollY(window.scrollY);
+  }, [lastScrollY]);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [handleScroll]);
+
   useEffect(() => {
     setIsSidebarOpen(false);
   }, [location]);
 
   return (
-    <header style={{ backgroundColor: headerColor }}>
+    <header
+      style={{
+        backgroundColor: headerColor,
+        transform: isScrollingDown ? "translateY(-108px)" : "translateY(-1px)",
+        transition: "transform 0.3s ease-in-out",
+      }}
+    >
       <div className="container-main">
-        <div className="header-menu" onClick={toggleSidebar}>
-          <Hemburger color={svgPathColor} />
+        <div className="header-menu">
+          <Hemburger color={svgPathColor} onClick={toggleSidebar} />
         </div>
         <div className="header-content-alignment">
           <div className="header-logo-main">

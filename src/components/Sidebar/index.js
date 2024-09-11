@@ -11,21 +11,17 @@ function Sidebar({ isOpen, toggleSidebar }) {
 
   useEffect(() => {
     if (isOpen) {
-      setShowContent(false);
-      const timer = setTimeout(() => {
-        setShowContent(true);
-      }, 600);
+      setShowContent(true);
       document.body.style.overflow = "hidden";
 
       const handleEscapeKey = (event) => {
         if (event.key === "Escape") {
-          setIsClosing(true);
+          handleClose();
         }
       };
       window.addEventListener("keydown", handleEscapeKey);
 
       return () => {
-        clearTimeout(timer);
         document.body.style.overflow = "";
         window.removeEventListener("keydown", handleEscapeKey);
       };
@@ -47,6 +43,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
   }, [isClosing, toggleSidebar]);
 
   const handleClose = () => {
+    setShowContent(false);
     setIsClosing(true);
   };
 
@@ -54,7 +51,7 @@ function Sidebar({ isOpen, toggleSidebar }) {
     <div className={`sidebar-main ${isOpen ? "open" : ""} ${isClosing ? "closing" : ""}`}>
       <div className="sidebar-background-main">
         <div className="sidebar-background">
-          <Sidebarbackground isOpen={isOpen} />
+          <Sidebarbackground isOpen={isOpen} isClosing={isClosing} />
         </div>
         {showContent && (
           <div className="sidebar">

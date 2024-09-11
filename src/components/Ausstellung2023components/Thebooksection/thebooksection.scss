@@ -78,7 +78,7 @@
         @media (max-width:576px) {
           min-width: auto;
           max-width: none;
-          min-height: 587px;
+          max-height: 587px;
           margin: 0 0 30px 0;
         }
       }
@@ -99,7 +99,7 @@
         margin: 0 0 20px 0;
         max-width: 280px;
       }
-      @media (max-width:1024px) {
+      @media (max-width:576px) {
         font-size: 14px;
         line-height: 20px;
         margin: 0 0 20px 0;

@@ -24,9 +24,9 @@
       }
 
       .the-vision-title {
-        width: 100%;
 
         @media (max-width:576px) {
+          width: 100%;
           display: flex;
           flex-direction: column-reverse;
           align-items: start;
@@ -36,7 +36,7 @@
         img {
           display: block;
           margin: 0 0 47px 0;
-          min-width: 354px;
+          max-width: 354px;
           min-height: 226px;
 
           @media (max-width:1024px) {
@@ -46,7 +46,7 @@
             margin: 0 0 27px 0;
           }
 
-          @media (max-width:1024px) {
+          @media (max-width:576px) {
             min-width: auto;
             max-width: none;
             min-height: 130px;
@@ -79,7 +79,9 @@
       }
 
       .the-vision-content {
-        width: 100%;
+        @media (max-width:576px) {
+          width: 100%;
+        }
 
         p {
           font-family: "Big Shoulders Display", sans-serif;
@@ -97,7 +99,7 @@
             margin: 0 0 20px 0;
           }
 
-          @media (max-width:1024px) {
+          @media (max-width:576px) {
             font-size: 14px;
             line-height: 20px;
             text-align: center;
