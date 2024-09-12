@@ -12,7 +12,7 @@ function Thegallerysection() {
             <h1>THE GALLERY</h1>
           </div>
           <div className="the-gallery-section-image">
-            <img src={Thegalleryimage} alt="Thegalleryimage" />
+            <img src={Thegalleryimage} alt="Thegalleryimage" rel="preload"/>
           </div>
         </div>
       </div>

@@ -68,7 +68,7 @@ img {
   -ms-user-select: none;
   user-select: none;
   -webkit-user-drag: none;
-  user-drag: none;
+  -webkit-user-drag: none;
   -webkit-touch-callout: none;
   object-fit: cover;
   width: 100%;
@@ -81,8 +81,6 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 }
-
-
 
 .lwandle-clock-section {
   margin: 0;

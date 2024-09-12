@@ -13,7 +13,7 @@ function Theideasection() {
           <div>
             <div className="the-ideas-section">
               <div className="hometownheroeskid1-div">
-                <img src={Hometownheroeskid1} alt="Hometownheroeskid1" />
+                <img src={Hometownheroeskid1} alt="Hometownheroeskid1" rel="preload"/>
               </div>
               <div className="the-idea-title">
                 <h1>THE IDEA</h1>
@@ -45,7 +45,7 @@ function Theideasection() {
               <div className="approach-title">
                 <h1>APP RO ACH</h1>
                 <div className="hometownheroeskid2-image">
-                  <img src={Hometownheroeskid2} alt="Hometownheroeskid2" />
+                  <img src={Hometownheroeskid2} alt="Hometownheroeskid2" rel="preload"/>
                 </div>
               </div>
               <p>
@@ -60,7 +60,7 @@ function Theideasection() {
               </p>
             </div>
             <div className="Hometownheroeskid3-image">
-              <img src={Hometownheroeskid3} alt="Hometownheroeskid3" />
+              <img src={Hometownheroeskid3} alt="Hometownheroeskid3" rel="preload"/>
             </div>
           </div>
         </div>

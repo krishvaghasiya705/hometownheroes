@@ -70,12 +70,12 @@ export default function Footer({
             </NavLink>
           </div>
           <div className="jesam-icon-div-main">
-            <NavLink to={"/"}>
+            <NavLink to={"/"} aria-label="home">
               <Jesamicon color1={svgPathColor1} color2={svgPathColor2} />
             </NavLink>
           </div>
           <div className="jesam-icon-mobile-div-main">
-            <NavLink to={"/"}>
+            <NavLink to={"/"} aria-label="home">
               <Jedsamiconmobile color1={svgPathColor1} color2={svgPathColor2} />
             </NavLink>
           </div>

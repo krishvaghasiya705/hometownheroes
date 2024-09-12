@@ -40,7 +40,7 @@ function Theappearlsection() {
               <h2>COLLABORATIONS</h2>
             </div>
             <div className="collaborations-image-div">
-              <img src={Collaborationsimage1} alt="Collaborationsimage1" />
+              <img src={Collaborationsimage1} alt="Collaborationsimage1" rel="preload"/>
               <p>HOMETOWN HEROES X YOUNG BAFANA</p>
             </div>
             <p>
@@ -62,7 +62,7 @@ function Theappearlsection() {
               <h2>COLLABORATIONS</h2>
             </div>
             <div className="collaborations-image-div collaborations-image-div-sc">
-              <img src={Collaborationsimage2} alt="Collaborationsimage2" />
+              <img src={Collaborationsimage2} alt="Collaborationsimage2" rel="preload"/>
               <p>HOMETOWN HEROES X CANON</p>
             </div>
             <p>

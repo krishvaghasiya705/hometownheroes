@@ -12,9 +12,9 @@ function Samplesection() {
         <div className="sample-section">
           <h1>SAMPLES</h1>
           <div className="sample-section-images-grd">
-            <img src={Sampleimage1} alt="Sampleimage1" />
-            <img src={Sampleimage2} alt="Sampleimage2" />
-            <img src={Sampleimage3} alt="Sampleimage3" />
+            <img src={Sampleimage1} alt="Sampleimage1" rel="preload"/>
+            <img src={Sampleimage2} alt="Sampleimage2" rel="preload"/>
+            <img src={Sampleimage3} alt="Sampleimage3" rel="preload"/>
           </div>
         </div>
       </div>

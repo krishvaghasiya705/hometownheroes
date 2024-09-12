@@ -11,15 +11,15 @@ function Qvarterimagesection() {
       <div className="qvarter-image-section-container">
         <div className="qvarter-image-section">
           <div className="qvarter-image-side1">
-            <img src={Qvarterimage1} alt="Qvarterimage1" />
+            <img src={Qvarterimage1} alt="Qvarterimage1" rel="preload"/>
           </div>
           <div className="qvarter-image-side2">
             <div className="qvarter-image-side2-alignment">
               <div className="qvarter-image-side2-alignment1">
-                <img src={Qvarterimage2} alt="Qvarterimage2" />
+                <img src={Qvarterimage2} alt="Qvarterimage2" rel="preload"/>
               </div>
               <div className="qvarter-image-side2-alignment2">
-                <img src={Qvarterimage3} alt="Qvarterimage3" />
+                <img src={Qvarterimage3} alt="Qvarterimage3" rel="preload" />
               </div>
             </div>
           </div>

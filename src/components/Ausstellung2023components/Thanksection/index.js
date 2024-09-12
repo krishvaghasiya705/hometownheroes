@@ -36,14 +36,14 @@ function Thanksection() {
           </div>
           <div className="thanks-sectionimage-div-main">
             <h1>HOMETOWN HEROES</h1>
-            <img src={Footerimage1} alt="Footerimage1" />
+            <img src={Footerimage1} alt="Footerimage1" rel="preload"/>
             <span>LEBANON</span>
           </div>
         </div>
         <div className="thanks-section-hometownheroes-div-two">
           <div className="thanks-sectionimage-div-main thanks-sectionimage-div-main-sc">
             <h1>THANK YOU</h1>
-            <img src={Footerimage2} alt="Footerimage2" />
+            <img src={Footerimage2} alt="Footerimage2" rel="preload"/>
           </div>
 
           <div>

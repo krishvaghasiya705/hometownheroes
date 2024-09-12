@@ -82,7 +82,7 @@ function Clocksection({
 
   return (
     <div className="auktion-date-div-main">
-      <h3 style={{ color: headerFontColor }}>AUKTION 2024 NOCH</h3>
+      <h2 style={{ color: headerFontColor }}>AUKTION 2024 NOCH</h2>
 
       <div className="auktion-date-alignment-main">
         <div className="auktion-date-alignment">

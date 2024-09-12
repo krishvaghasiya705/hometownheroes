@@ -16,7 +16,7 @@ function Lwandleherobanner({ hideImage = false, showText = false, title: propTit
       <div className="lwandle-herobanner-container">
         <div className="lwandle-herobanner">
           <div className="homtownheroes-mini-page-image-alignment">
-            {!hideImage && <img src={imageSrc} alt={title} />}
+            {!hideImage && <img src={imageSrc} alt={title} rel="preload" />}
             {showText && <h1>DONATE</h1>}
           </div>
           <div className="lwandle-herobanner-content-main">

@@ -10,7 +10,7 @@ function Hometownheroessection() {
       <div className="home-town-heroes-section-container">
         <div className="home-town-heroes-section">
           <h1>HOMETOWN HEROES</h1>
-          <img src={hometownheroeskid4} alt="hometownheroeskid4" />
+          <img src={hometownheroeskid4} alt="hometownheroeskid4" rel="preload" />
           <div>
             <span>“EQUAL AS HUMANS - DESPITE DIFFERENCES“</span>
             <div className="future-title">
@@ -20,7 +20,7 @@ function Hometownheroessection() {
         </div>
 
         <div className="home-town-heroes-section-pera">
-          <img src={hometownheroeswomen1} alt="hometownheroeswomen1" />
+          <img src={hometownheroeswomen1} alt="hometownheroeswomen1" rel="preload"/>
           <div>
             <p>
               We invite you to join us on a remarkable journey - a journey that
