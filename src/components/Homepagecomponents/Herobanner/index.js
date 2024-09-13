@@ -1,7 +1,7 @@
 import React from "react";
 import "./herobanner.scss";
 
-import Hometownheroesbannerimage from "../../../assets/image/hometownheroesbannerimage.png";
+import Hometownheroesbannerimage from "../../../assets/image/hometownheroesbannerimage.webp";
 import Clocksection from "../clocksection";
 
 function Herobanner() {

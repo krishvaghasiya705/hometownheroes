@@ -1,8 +1,8 @@
 import React from "react";
 import "./theappearlsection.scss";
 
-import Collaborationsimage1 from "../../../assets/image/collaborationsimage1.png";
-import Collaborationsimage2 from "../../../assets/image/collaborationsimage2.png";
+import Collaborationsimage1 from "../../../assets/image/collaborationsimage1.webp";
+import Collaborationsimage2 from "../../../assets/image/collaborationsimage2.webp";
 
 function Theappearlsection() {
   return (

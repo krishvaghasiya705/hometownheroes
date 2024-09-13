@@ -1,7 +1,7 @@
 import React from "react";
 import "./thebooksection.scss";
 
-import Hometownheroescoffeewithpaperimage from "../../../assets/image/hometownheroescoffeewithpaperimage.png";
+import Hometownheroescoffeewithpaperimage from "../../../assets/image/hometownheroescoffeewithpaperimage.webp";
 
 function Thebooksection() {
   return (

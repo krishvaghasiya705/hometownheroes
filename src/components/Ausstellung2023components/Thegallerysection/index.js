@@ -1,7 +1,7 @@
 import React from "react";
 import "./thegallerysection.scss";
 
-import Thegalleryimage from "../../../assets/image/thegalleryimage.png";
+import Thegalleryimage from "../../../assets/image/thegalleryimage.webp";
 
 function Thegallerysection() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Lwandleherobanner.scss";
 import { useLocation } from "react-router-dom";
-import lwandeimage1 from "../../../assets/homtownheroesminipageimages/homtownheroesminipageimages1.png";
+import lwandeimage1 from "../../../assets/homtownheroesminipageimages/homtownheroesminipageimages1.webp";
 
 function Lwandleherobanner({ hideImage = false, showText = false, title: propTitle, paragraph, showBidButton = true, showMessageButton = true }) {
   const location = useLocation();

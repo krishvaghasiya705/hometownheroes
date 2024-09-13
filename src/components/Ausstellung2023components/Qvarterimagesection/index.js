@@ -1,9 +1,9 @@
 import React from "react";
 import "./qvarterimagesection.scss";
 
-import Qvarterimage1 from "../../../assets/image/qvarterimage1.png";
-import Qvarterimage2 from "../../../assets/image/qvarterimage2.png";
-import Qvarterimage3 from "../../../assets/image/qvarterimage3.png";
+import Qvarterimage1 from "../../../assets/image/qvarterimage1.webp";
+import Qvarterimage2 from "../../../assets/image/qvarterimage2.webp";
+import Qvarterimage3 from "../../../assets/image/qvarterimage3.webp";
 
 function Qvarterimagesection() {
   return (

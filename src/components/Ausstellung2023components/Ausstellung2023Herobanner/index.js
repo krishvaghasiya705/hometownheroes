@@ -1,7 +1,7 @@
 import React from "react";
 import "./ausstellung2023.scss";
 
-import Hometownheroesbannerimage2 from "../../../assets/image/hometownheroesbannerimage2.png";
+import Hometownheroesbannerimage2 from "../../../assets/image/hometownheroesbannerimage2.webp";
 
 function Ausstellung2023Herobanner() {
   return (

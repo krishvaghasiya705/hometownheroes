@@ -1,8 +1,8 @@
 import React from "react";
 import "./followthejourneyherobanner.scss";
 
-import Hometownheroesbannerimage from "../../../assets/image/hometownheroesbannerimage.png";
-import Hometownheroesbannerimage2 from "../../../assets/image/hometownheroesbannerimage2.png";
+import Hometownheroesbannerimage from "../../../assets/image/hometownheroesbannerimage.webp";
+import Hometownheroesbannerimage2 from "../../../assets/image/hometownheroesbannerimage2.webp";
 
 function Followthejourneyherobanner() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./hometownheroesperasection.scss";
 
-import Hometownheroesbannerimage2 from "../../../assets/image/hometownheroesbannerimage2.png";
+import Hometownheroesbannerimage2 from "../../../assets/image/hometownheroesbannerimage2.webp";
 
 function Hometownheroesperasection() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import "./hometownheroessection.scss";
 
-import hometownheroeskid4 from "../../../assets/image/hometownheroeskid4.png";
-import hometownheroeswomen1 from "../../../assets/image/hometownheroeswomen1.png";
+import hometownheroeskid4 from "../../../assets/image/hometownheroeskid4.webp";
+import hometownheroeswomen1 from "../../../assets/image/hometownheroeswomen1.webp";
 
 function Hometownheroessection() {
   return (

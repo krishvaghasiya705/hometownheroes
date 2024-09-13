@@ -1,8 +1,8 @@
 import React from "react";
 import "./thanksection.scss";
 
-import Footerimage1 from "../../../assets/footer/footerimage1.png";
-import Footerimage2 from "../../../assets/footer/footerimage2.png";
+import Footerimage1 from "../../../assets/footer/footerimage1.webp";
+import Footerimage2 from "../../../assets/footer/footerimage2.webp";
 
 function Thanksection() {
   return (

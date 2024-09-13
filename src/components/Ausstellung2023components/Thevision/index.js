@@ -1,7 +1,7 @@
 import React from "react";
 import "./thevision.scss";
 
-import Hometownheroesmen1 from "../../../assets/image/hometownheroesmen1.png";
+import Hometownheroesmen1 from "../../../assets/image/hometownheroesmen1.webp";
 
 function Thevision() {
   return (

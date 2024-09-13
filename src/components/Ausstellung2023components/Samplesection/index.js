@@ -1,9 +1,9 @@
 import React from "react";
 import "./samplesection.scss";
 
-import Sampleimage1 from "../../../assets/image/sampleimage1.png"
-import Sampleimage2 from "../../../assets/image/sampleimage2.png"
-import Sampleimage3 from "../../../assets/image/sampleimage3.png"
+import Sampleimage1 from "../../../assets/image/sampleimage1.webp"
+import Sampleimage2 from "../../../assets/image/sampleimage2.webp"
+import Sampleimage3 from "../../../assets/image/sampleimage3.webp"
 
 function Samplesection() {
   return (

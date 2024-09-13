@@ -1,9 +1,9 @@
 import React from "react";
 import "./theideassection.scss";
 
-import Hometownheroeskid1 from "../../../assets/image/hometownheroeskid1.png";
-import Hometownheroeskid2 from "../../../assets/image/hometownheroeskid2.png";
-import Hometownheroeskid3 from "../../../assets/image/hometownheroeskid3.png";
+import Hometownheroeskid1 from "../../../assets/image/hometownheroeskid1.webp";
+import Hometownheroeskid2 from "../../../assets/image/hometownheroeskid2.webp";
+import Hometownheroeskid3 from "../../../assets/image/hometownheroeskid3.webp";
 
 function Theideasection() {
   return (
