@@ -34,21 +34,21 @@ function Impressumsection() {
             </div>
             <div className="link-div">
               <h2>HOMETOWN HEROES</h2>
-              <NavLink to={"/"}>Vertreten durch:</NavLink>
-              <NavLink to={"/"}>Tom von Below</NavLink>
+              <NavLink to={"/"} aria-label="home">Vertreten durch:</NavLink>
+              <NavLink to={"/"} aria-label="home">Tom von Below</NavLink>
             </div>
             <div className="link-div">
               <h2>Kontakt:</h2>
-              <NavLink to={"/"}>Frickestraße 83</NavLink>
-              <NavLink to={"/"}>20251 Hamburg</NavLink>
+              <NavLink to={"/"} aria-label="home">Frickestraße 83</NavLink>
+              <NavLink to={"/"} aria-label="home">20251 Hamburg</NavLink>
             </div>
             <div className="link-div">
               <h2>E-Mail:</h2>
               <h2>
                 <a href="mailto:info@hometown-heroes.de">info@hometown-heroes.de</a>
               </h2>
-              <NavLink to={"/"}>Haftungsausschluss:</NavLink>
-              <NavLink to={"/"}>Haftung für Inhalte</NavLink>
+              <NavLink to={"/"} aria-label="home">Haftungsausschluss:</NavLink>
+              <NavLink to={"/"} aria-label="home">Haftung für Inhalte</NavLink>
             </div>
           </div>
           <div className="impressum-title-mobile">
