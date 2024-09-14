@@ -6,6 +6,7 @@
     <link rel="icon" href="hometownlogo.png" sizes="32x32" type="image/webp" />
     <link rel="icon" href="hometownlogo.png" sizes="16x16" type="image/webp" />
     <link rel="apple-touch-icon" sizes="180x180" href="hometownlogo.png" />
+    <link rel="preload" href="hometownlogo.png" as="image" type="image/webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -13,24 +14,14 @@
       content="Web site created using create-react-app"
     />
 
-    <!-- Preloading critical assets -->
-    <link rel="preload" href="hometownlogo.png" as="image" type="image/webp" />
-
-    <!-- Preconnecting to Google Fonts to speed up font requests -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- Combining Google Fonts into a single request with font-display swap -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Big+Shoulders+Inline+Text:wght@100..900&display=swap"
+      as="style"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Big+Shoulders+Inline+Text:wght@100..900&display=swap"
       rel="stylesheet"
-    />
-
-    <!-- Lazy loading external library for animations -->
-    <link
-      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-      rel="stylesheet"
-      media="print"
-      onload="this.media='all'"
     />
 
     <!--
@@ -51,9 +42,43 @@
     -->
 
     <title>HOMETOWNHEROES</title>
+
+    <style>
+      #loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f6f1e5;
+        z-index: 9999;
+      }
+
+      body.hidden-content {
+        visibility: hidden;
+      }
+
+      body.font-loaded {
+        visibility: visible;
+      }
+    </style>
+    <script>
+      document.fonts.ready.then(function () {
+        document.body.classList.remove("hidden-content"),
+          (document.getElementById("loader").style.display = "none");
+      });
+    </script>
+    <script defer="defer" src="/static/js/main.34e38ad4.js"></script>
+    <link href="/static/css/main.3dd3ebb3.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="hidden-content">
+    <div id="loader">
+      <p>Loading...</p>
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
