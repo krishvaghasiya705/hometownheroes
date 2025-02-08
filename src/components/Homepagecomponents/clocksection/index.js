@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./clocksection.scss";
 
 const calculateTimeLeft = () => {
-  const targetDate = new Date("December 31, 2024 23:59:59").getTime();
+  const targetDate = new Date("May 12, 2025 23:59:59").getTime();
   const now = new Date().getTime();
   const difference = targetDate - now;
 
